@@ -1,0 +1,3512 @@
+16:05:24 [    INFO] Request method: get (api_utlis.py:11)
+16:05:24 [    INFO] Request URL: http://csappstage.catch.net.tw/cs/API/getBillingInfo (api_utlis.py:12)
+16:05:24 [    INFO] Request Cookies: <RequestsCookieJar[]> (api_utlis.py:13)
+16:05:24 [    INFO] Request headers: {'User-Agent': 'python-requests/2.32.3', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'} (api_utlis.py:14)
+16:05:24 [    INFO] Request Json body: null (api_utlis.py:17)
+16:05:24 [    INFO] Response headers: {'X-Frame-Options': 'SAMEORIGIN', 'X-XSS-Protection': '1; mode=block', 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'X-Content-Type-Options': 'nosniff', 'Content-Type': 'text/html;charset=UTF-8', 'Date': 'Mon, 28 Oct 2024 08:05:23 GMT', 'Server': '', 'Content-Length': '478', 'Age': '1', 'Connection': 'keep-alive', 'Via': '1.1 TWM-WCG-SVR6'} (api_utlis.py:20)
+16:05:24 [    INFO] Response code: 200 (api_utlis.py:21)
+16:05:24 [    INFO] Response: {
+    "cs_app": {
+        "billing_amount": {
+            "bill_no": "9987451709241",
+            "billing_date": "2024/10/01",
+            "chk_date_info": "20241007",
+            "is_chk_date": "N",
+            "is_new_bill": "Y",
+            "issue_date": "202410",
+            "po_billing_date": "2024/09/02~2024/10/01",
+            "po_chrg_amt": 580,
+            "po_due_date": "2024/10/22",
+            "po_last_amt": 0,
+            "po_new_amt": 580,
+            "po_paid_amt": 0
+        },
+        "mp_payment_record": {
+            "amount": "260",
+            "payment_date": "2022/09/22",
+            "unit_nme": "VISA/MASTER卡"
+        },
+        "msisdn": "09278***88      ",
+        "ret_code": "0",
+        "subscrid": "14796488",
+        "uid": "82800"
+    }
+} (api_utlis.py:25)
+16:05:24 [    INFO] [Json 內容比對失敗], expected: {'cs_app': {'billing_amount': {'is_chk_date': 'N', 'chk_date_info': '20241007', 'po_paid_amt': 0, 'issue_date': '202410', 'po_due_date': '2024/10/22', 'po_new_amt': 580, 'po_billing_date': '2024/09/02~2024/10/01', 'bill_no': '9987451709241', 'is_new_bill': 'Y', 'po_chrg_amt': 580, 'billing_date': '2024/10/01', 'po_last_amt': 0}, 'mp_payment_record': {'amount': '260', 'unit_nme': 'VISA/MASTER卡', 'payment_date': '2022/09/22'}, 'uid': '82800', 'subscrid': '14796488', 'msisdn': '09278***88      ', 'ret_code': '0'}}, actual: {'cs_app': {'billing_amount': {'is_chk_date': 'N', 'chk_date_info': '20241007', 'po_paid_amt': 0, 'issue_date': '202410', 'po_due_date': '2024/10/22', 'po_new_amt': 580, 'po_billing_date': '2024/09/02~2024/10/01', 'bill_no': '9987451709241', 'is_new_bill': 'Y', 'po_chrg_amt': 580, 'billing_date': '2024/10/01', 'po_last_amt': 0}, 'mp_payment_record': {'amount': '260', 'unit_nme': 'VISA/MASTER卡', 'payment_date': '2022/09/22'}, 'uid': '82800', 'subscrid': '14796488', 'msisdn': '09278***88      ', 'ret_code': '0'}} (object_utils.py:7)
+16:05:24 [    INFO] END (test_api_GetBillingInfo.py:46)
+16:05:24 [    INFO] Request method: get (api_utlis.py:11)
+16:05:24 [    INFO] Request URL: http://csappstage.catch.net.tw/cs/API/getBillingInfo (api_utlis.py:12)
+16:05:24 [    INFO] Request Cookies: <RequestsCookieJar[]> (api_utlis.py:13)
+16:05:24 [    INFO] Request headers: {'User-Agent': 'python-requests/2.32.3', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'} (api_utlis.py:14)
+16:05:24 [    INFO] Request Json body: null (api_utlis.py:17)
+16:05:24 [    INFO] Response headers: {'X-Frame-Options': 'SAMEORIGIN', 'X-XSS-Protection': '1; mode=block', 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'X-Content-Type-Options': 'nosniff', 'Content-Type': 'text/html;charset=UTF-8', 'Date': 'Mon, 28 Oct 2024 08:05:23 GMT', 'Server': '', 'Content-Length': '478', 'Age': '1', 'Connection': 'keep-alive', 'Via': '1.1 TWM-WCG-SVR6'} (api_utlis.py:20)
+16:05:24 [    INFO] Response code: 200 (api_utlis.py:21)
+16:05:24 [    INFO] Response: {
+    "cs_app": {
+        "billing_amount": {
+            "bill_no": "9987451709241",
+            "billing_date": "2024/10/01",
+            "chk_date_info": "20241007",
+            "is_chk_date": "N",
+            "is_new_bill": "Y",
+            "issue_date": "202410",
+            "po_billing_date": "2024/09/02~2024/10/01",
+            "po_chrg_amt": 580,
+            "po_due_date": "2024/10/22",
+            "po_last_amt": 0,
+            "po_new_amt": 580,
+            "po_paid_amt": 0
+        },
+        "mp_payment_record": {
+            "amount": "260",
+            "payment_date": "2022/09/22",
+            "unit_nme": "VISA/MASTER卡"
+        },
+        "msisdn": "09278***88      ",
+        "ret_code": "0",
+        "subscrid": "14796488",
+        "uid": "82800"
+    }
+} (api_utlis.py:25)
+16:05:24 [    INFO] [Json 內容比對失敗], expected: {'cs_app': {'billing_amount': {'is_chk_date': 'N', 'chk_date_info': '20241007', 'po_paid_amt': 0, 'issue_date': '202410', 'po_due_date': '2024/10/22', 'po_new_amt': 580, 'po_billing_date': '2024/09/02~2024/10/01', 'bill_no': '9987451709241', 'is_new_bill': 'Y', 'po_chrg_amt': 580, 'billing_date': '2024/10/01', 'po_last_amt': 0}, 'mp_payment_record': {'amount': '260', 'unit_nme': 'VISA/MASTER卡', 'payment_date': '2022/09/22'}, 'uid': '82800', 'subscrid': '14796488', 'msisdn': '09278***88      ', 'ret_code': '0'}}, actual: {'cs_app': {'billing_amount': {'is_chk_date': 'N', 'chk_date_info': '20241007', 'po_paid_amt': 0, 'issue_date': '202410', 'po_due_date': '2024/10/22', 'po_new_amt': 580, 'po_billing_date': '2024/09/02~2024/10/01', 'bill_no': '9987451709241', 'is_new_bill': 'Y', 'po_chrg_amt': 580, 'billing_date': '2024/10/01', 'po_last_amt': 0}, 'mp_payment_record': {'amount': '260', 'unit_nme': 'VISA/MASTER卡', 'payment_date': '2022/09/22'}, 'uid': '82800', 'subscrid': '14796488', 'msisdn': '09278***88      ', 'ret_code': '0'}} (object_utils.py:7)
+16:05:24 [    INFO] END (test_api_GetBillingInfo.py:46)
+16:05:24 [    INFO] Request method: get (api_utlis.py:11)
+16:05:24 [    INFO] Request URL: http://csappstage.catch.net.tw/cs/API/getBillingInfo (api_utlis.py:12)
+16:05:24 [    INFO] Request Cookies: <RequestsCookieJar[]> (api_utlis.py:13)
+16:05:24 [    INFO] Request headers: {'User-Agent': 'python-requests/2.32.3', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'} (api_utlis.py:14)
+16:05:24 [    INFO] Request Json body: null (api_utlis.py:17)
+16:05:25 [    INFO] Response headers: {'X-Frame-Options': 'SAMEORIGIN', 'X-XSS-Protection': '1; mode=block', 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'X-Content-Type-Options': 'nosniff', 'Content-Type': 'text/html;charset=UTF-8', 'Date': 'Mon, 28 Oct 2024 08:05:25 GMT', 'Server': '', 'Content-Length': '478', 'Age': '1', 'Connection': 'keep-alive', 'Via': '1.1 TWM-WCG-SVR6'} (api_utlis.py:20)
+16:05:25 [    INFO] Response code: 200 (api_utlis.py:21)
+16:05:25 [    INFO] Response: {
+    "cs_app": {
+        "billing_amount": {
+            "bill_no": "9987451709241",
+            "billing_date": "2024/10/01",
+            "chk_date_info": "20241007",
+            "is_chk_date": "N",
+            "is_new_bill": "Y",
+            "issue_date": "202410",
+            "po_billing_date": "2024/09/02~2024/10/01",
+            "po_chrg_amt": 580,
+            "po_due_date": "2024/10/22",
+            "po_last_amt": 0,
+            "po_new_amt": 580,
+            "po_paid_amt": 0
+        },
+        "mp_payment_record": {
+            "amount": "260",
+            "payment_date": "2022/09/22",
+            "unit_nme": "VISA/MASTER卡"
+        },
+        "msisdn": "09278***88      ",
+        "ret_code": "0",
+        "subscrid": "14796488",
+        "uid": "82800"
+    }
+} (api_utlis.py:25)
+16:05:25 [    INFO] [Json 內容比對失敗], expected: {'cs_app': {'billing_amount': {'is_chk_date': 'N', 'chk_date_info': '20161021', 'po_paid_amt': 0, 'issue_date': '20240824', 'po_due_date': '2024/08/22', 'po_new_amt': 0, 'po_billing_date': '2024/07/02~2024/08/01', 'bill_no': '9974132207249', 'is_new_bill': 'Y', 'po_chrg_amt': 0, 'billing_date': '2024/08/01', 'po_last_amt': 0}, 'uid': '82800', 'subscrid': '14796488', 'msisdn': '09278***88      ', 'ret_code': '0', 'payment_record': {'amount': '100', 'unit_nme': '轉代-繳費稅平台', 'payment_date': '2022/07/22'}}}, actual: {'cs_app': {'billing_amount': {'is_chk_date': 'N', 'chk_date_info': '20241007', 'po_paid_amt': 0, 'issue_date': '202410', 'po_due_date': '2024/10/22', 'po_new_amt': 580, 'po_billing_date': '2024/09/02~2024/10/01', 'bill_no': '9987451709241', 'is_new_bill': 'Y', 'po_chrg_amt': 580, 'billing_date': '2024/10/01', 'po_last_amt': 0}, 'mp_payment_record': {'amount': '260', 'unit_nme': 'VISA/MASTER卡', 'payment_date': '2022/09/22'}, 'uid': '82800', 'subscrid': '14796488', 'msisdn': '09278***88      ', 'ret_code': '0'}} (object_utils.py:7)
+16:05:25 [   ERROR] An error occurred: [Json 內容比對失敗], expected: {'cs_app': {'billing_amount': {'is_chk_date': 'N', 'chk_date_info': '20161021', 'po_paid_amt': 0, 'issue_date': '20240824', 'po_due_date': '2024/08/22', 'po_new_amt': 0, 'po_billing_date': '2024/07/02~2024/08/01', 'bill_no': '9974132207249', 'is_new_bill': 'Y', 'po_chrg_amt': 0, 'billing_date': '2024/08/01', 'po_last_amt': 0}, 'uid': '82800', 'subscrid': '14796488', 'msisdn': '09278***88      ', 'ret_code': '0', 'payment_record': {'amount': '100', 'unit_nme': '轉代-繳費稅平台', 'payment_date': '2022/07/22'}}}, but actual: {'cs_app': {'billing_amount': {'is_chk_date': 'N', 'chk_date_info': '20241007', 'po_paid_amt': 0, 'issue_date': '202410', 'po_due_date': '2024/10/22', 'po_new_amt': 580, 'po_billing_date': '2024/09/02~2024/10/01', 'bill_no': '9987451709241', 'is_new_bill': 'Y', 'po_chrg_amt': 580, 'billing_date': '2024/10/01', 'po_last_amt': 0}, 'mp_payment_record': {'amount': '260', 'unit_nme': 'VISA/MASTER卡', 'payment_date': '2022/09/22'}, 'uid': '82800', 'subscrid': '14796488', 'msisdn': '09278***88      ', 'ret_code': '0'}} (test_api_GetBillingInfo.py:42)
+Traceback (most recent call last):
+  File "C:\CS_app_autotest_tina(1)\test_api\test_api_GetBillingInfo.py", line 38, in test_api_GetBillingInfoAPIs_success
+    ObjectUtils.equal_str("Json 內容比對失敗", excel_data, response_data)
+  File "C:\CS_app_autotest_tina(1)\utils\object_utils.py", line 8, in equal_str
+    assert str(exp_value) == str(act_value), f"[{key}], expected: {exp_value}, but actual: {act_value}"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: [Json 內容比對失敗], expected: {'cs_app': {'billing_amount': {'is_chk_date': 'N', 'chk_date_info': '20161021', 'po_paid_amt': 0, 'issue_date': '20240824', 'po_due_date': '2024/08/22', 'po_new_amt': 0, 'po_billing_date': '2024/07/02~2024/08/01', 'bill_no': '9974132207249', 'is_new_bill': 'Y', 'po_chrg_amt': 0, 'billing_date': '2024/08/01', 'po_last_amt': 0}, 'uid': '82800', 'subscrid': '14796488', 'msisdn': '09278***88      ', 'ret_code': '0', 'payment_record': {'amount': '100', 'unit_nme': '轉代-繳費稅平台', 'payment_date': '2022/07/22'}}}, but actual: {'cs_app': {'billing_amount': {'is_chk_date': 'N', 'chk_date_info': '20241007', 'po_paid_amt': 0, 'issue_date': '202410', 'po_due_date': '2024/10/22', 'po_new_amt': 580, 'po_billing_date': '2024/09/02~2024/10/01', 'bill_no': '9987451709241', 'is_new_bill': 'Y', 'po_chrg_amt': 580, 'billing_date': '2024/10/01', 'po_last_amt': 0}, 'mp_payment_record': {'amount': '260', 'unit_nme': 'VISA/MASTER卡', 'payment_date': '2022/09/22'}, 'uid': '82800', 'subscrid': '14796488', 'msisdn': '09278***88      ', 'ret_code': '0'}}
+16:05:25 [    INFO] END (test_api_GetBillingInfo.py:46)
+16:05:25 [    INFO] Request method: get (api_utlis.py:11)
+16:05:25 [    INFO] Request URL: http://csappstage.catch.net.tw/cs/API/getBillingInfo (api_utlis.py:12)
+16:05:25 [    INFO] Request Cookies: <RequestsCookieJar[]> (api_utlis.py:13)
+16:05:25 [    INFO] Request headers: {'User-Agent': 'python-requests/2.32.3', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'} (api_utlis.py:14)
+16:05:25 [    INFO] Request Json body: null (api_utlis.py:17)
+16:05:25 [    INFO] Response headers: {'X-Frame-Options': 'SAMEORIGIN', 'X-XSS-Protection': '1; mode=block', 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'X-Content-Type-Options': 'nosniff', 'Content-Type': 'text/html;charset=UTF-8', 'Date': 'Mon, 28 Oct 2024 08:05:25 GMT', 'Server': '', 'Content-Length': '478', 'Age': '0', 'Connection': 'keep-alive', 'Via': '1.1 TWM-WCG-SVR6'} (api_utlis.py:20)
+16:05:25 [    INFO] Response code: 200 (api_utlis.py:21)
+16:05:25 [    INFO] Response: {
+    "cs_app": {
+        "billing_amount": {
+            "bill_no": "9987451709241",
+            "billing_date": "2024/10/01",
+            "chk_date_info": "20241007",
+            "is_chk_date": "N",
+            "is_new_bill": "Y",
+            "issue_date": "202410",
+            "po_billing_date": "2024/09/02~2024/10/01",
+            "po_chrg_amt": 580,
+            "po_due_date": "2024/10/22",
+            "po_last_amt": 0,
+            "po_new_amt": 580,
+            "po_paid_amt": 0
+        },
+        "mp_payment_record": {
+            "amount": "260",
+            "payment_date": "2022/09/22",
+            "unit_nme": "VISA/MASTER卡"
+        },
+        "msisdn": "09278***88      ",
+        "ret_code": "0",
+        "subscrid": "14796488",
+        "uid": "82800"
+    }
+} (api_utlis.py:25)
+16:05:25 [    INFO] [Json 內容比對失敗], expected: {'cs_app': {'billing_amount': {'is_chk_date': 'N', 'chk_date_info': '20161021', 'po_paid_amt': 0, 'issue_date': '202408', 'po_due_date': '2024/08/22', 'po_new_amt': 0, 'po_billing_date': '2024/07/02~2024/08/01', 'bill_no': '99741322525207249', 'is_new_bill': 'Y', 'po_chrg_amt': 0, 'billing_date': '2024/08/01', 'po_last_amt': 0}, 'uid': '82800', 'subscrid': '14796488', 'msisdn': '09278***88      ', 'ret_code': '0', 'payment_record': {'amount': '100', 'unit_nme': '轉代-繳費稅平台', 'payment_date': '2022/07/22'}}}, actual: {'cs_app': {'billing_amount': {'is_chk_date': 'N', 'chk_date_info': '20241007', 'po_paid_amt': 0, 'issue_date': '202410', 'po_due_date': '2024/10/22', 'po_new_amt': 580, 'po_billing_date': '2024/09/02~2024/10/01', 'bill_no': '9987451709241', 'is_new_bill': 'Y', 'po_chrg_amt': 580, 'billing_date': '2024/10/01', 'po_last_amt': 0}, 'mp_payment_record': {'amount': '260', 'unit_nme': 'VISA/MASTER卡', 'payment_date': '2022/09/22'}, 'uid': '82800', 'subscrid': '14796488', 'msisdn': '09278***88      ', 'ret_code': '0'}} (object_utils.py:7)
+16:05:25 [   ERROR] An error occurred: [Json 內容比對失敗], expected: {'cs_app': {'billing_amount': {'is_chk_date': 'N', 'chk_date_info': '20161021', 'po_paid_amt': 0, 'issue_date': '202408', 'po_due_date': '2024/08/22', 'po_new_amt': 0, 'po_billing_date': '2024/07/02~2024/08/01', 'bill_no': '99741322525207249', 'is_new_bill': 'Y', 'po_chrg_amt': 0, 'billing_date': '2024/08/01', 'po_last_amt': 0}, 'uid': '82800', 'subscrid': '14796488', 'msisdn': '09278***88      ', 'ret_code': '0', 'payment_record': {'amount': '100', 'unit_nme': '轉代-繳費稅平台', 'payment_date': '2022/07/22'}}}, but actual: {'cs_app': {'billing_amount': {'is_chk_date': 'N', 'chk_date_info': '20241007', 'po_paid_amt': 0, 'issue_date': '202410', 'po_due_date': '2024/10/22', 'po_new_amt': 580, 'po_billing_date': '2024/09/02~2024/10/01', 'bill_no': '9987451709241', 'is_new_bill': 'Y', 'po_chrg_amt': 580, 'billing_date': '2024/10/01', 'po_last_amt': 0}, 'mp_payment_record': {'amount': '260', 'unit_nme': 'VISA/MASTER卡', 'payment_date': '2022/09/22'}, 'uid': '82800', 'subscrid': '14796488', 'msisdn': '09278***88      ', 'ret_code': '0'}} (test_api_GetBillingInfo.py:42)
+Traceback (most recent call last):
+  File "C:\CS_app_autotest_tina(1)\test_api\test_api_GetBillingInfo.py", line 38, in test_api_GetBillingInfoAPIs_success
+    ObjectUtils.equal_str("Json 內容比對失敗", excel_data, response_data)
+  File "C:\CS_app_autotest_tina(1)\utils\object_utils.py", line 8, in equal_str
+    assert str(exp_value) == str(act_value), f"[{key}], expected: {exp_value}, but actual: {act_value}"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: [Json 內容比對失敗], expected: {'cs_app': {'billing_amount': {'is_chk_date': 'N', 'chk_date_info': '20161021', 'po_paid_amt': 0, 'issue_date': '202408', 'po_due_date': '2024/08/22', 'po_new_amt': 0, 'po_billing_date': '2024/07/02~2024/08/01', 'bill_no': '99741322525207249', 'is_new_bill': 'Y', 'po_chrg_amt': 0, 'billing_date': '2024/08/01', 'po_last_amt': 0}, 'uid': '82800', 'subscrid': '14796488', 'msisdn': '09278***88      ', 'ret_code': '0', 'payment_record': {'amount': '100', 'unit_nme': '轉代-繳費稅平台', 'payment_date': '2022/07/22'}}}, but actual: {'cs_app': {'billing_amount': {'is_chk_date': 'N', 'chk_date_info': '20241007', 'po_paid_amt': 0, 'issue_date': '202410', 'po_due_date': '2024/10/22', 'po_new_amt': 580, 'po_billing_date': '2024/09/02~2024/10/01', 'bill_no': '9987451709241', 'is_new_bill': 'Y', 'po_chrg_amt': 580, 'billing_date': '2024/10/01', 'po_last_amt': 0}, 'mp_payment_record': {'amount': '260', 'unit_nme': 'VISA/MASTER卡', 'payment_date': '2022/09/22'}, 'uid': '82800', 'subscrid': '14796488', 'msisdn': '09278***88      ', 'ret_code': '0'}}
+16:05:25 [    INFO] END (test_api_GetBillingInfo.py:46)
+16:05:25 [    INFO] Request method: get (api_utlis.py:11)
+16:05:25 [    INFO] Request URL: http://csappstage.catch.net.tw/cs/API/queryBillingDetail (api_utlis.py:12)
+16:05:25 [    INFO] Request Cookies: <RequestsCookieJar[]> (api_utlis.py:13)
+16:05:25 [    INFO] Request headers: {'User-Agent': 'python-requests/2.32.3', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'} (api_utlis.py:14)
+16:05:25 [    INFO] Request Json body: null (api_utlis.py:17)
+16:05:25 [    INFO] Response headers: {'X-Frame-Options': 'SAMEORIGIN', 'X-XSS-Protection': '1; mode=block', 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'X-Content-Type-Options': 'nosniff', 'Content-Type': 'text/html;charset=UTF-8', 'Date': 'Mon, 28 Oct 2024 08:05:25 GMT', 'Server': '', 'Content-Length': '275', 'Age': '0', 'Connection': 'keep-alive', 'Via': '1.1 TWM-WCG-SVR6'} (api_utlis.py:20)
+16:05:25 [    INFO] Response code: 200 (api_utlis.py:21)
+16:05:25 [    INFO] Response: {
+    "cs_app": {
+        "bill_indic": "S",
+        "bill_list": [],
+        "count": "0.00",
+        "po_chrg_amt_dscr": " ",
+        "po_due_date": "2024/10/22",
+        "po_due_date_dscr": "繳款截止日",
+        "po_msg": " ",
+        "po_new_amt": 580,
+        "po_new_amt_dscr": "本期應繳金額",
+        "po_paid_amt_dscr": " ",
+        "ret_code": "0",
+        "subscrid": "14796488"
+    }
+} (api_utlis.py:25)
+16:05:25 [    INFO] [Json 內容比對失敗], expected: {'cs_app': {'po_new_amt_dscr': '本期應繳金額', 'bill_list': [], 'subscrid': '14796488', 'po_paid_amt_dscr': ' ', 'po_new_amt': 580, 'po_due_date_dscr': '繳款截止日', 'po_due_date': '2024/10/22', 'po_msg': ' ', 'bill_indic': 'S', 'count': '0.00', 'po_chrg_amt_dscr': ' ', 'ret_code': '0'}}, actual: {'cs_app': {'po_new_amt_dscr': '本期應繳金額', 'bill_list': [], 'subscrid': '14796488', 'po_paid_amt_dscr': ' ', 'po_new_amt': 580, 'po_due_date_dscr': '繳款截止日', 'po_due_date': '2024/10/22', 'po_msg': ' ', 'bill_indic': 'S', 'count': '0.00', 'po_chrg_amt_dscr': ' ', 'ret_code': '0'}} (object_utils.py:7)
+16:05:25 [    INFO] END (test_api_QueryBillingDetail.py:46)
+16:05:25 [    INFO] Request method: get (api_utlis.py:11)
+16:05:25 [    INFO] Request URL: http://csappstage.catch.net.tw/cs/API/queryBillingDetail (api_utlis.py:12)
+16:05:25 [    INFO] Request Cookies: <RequestsCookieJar[]> (api_utlis.py:13)
+16:05:25 [    INFO] Request headers: {'User-Agent': 'python-requests/2.32.3', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'} (api_utlis.py:14)
+16:05:25 [    INFO] Request Json body: null (api_utlis.py:17)
+16:05:26 [    INFO] Response headers: {'X-Frame-Options': 'SAMEORIGIN', 'X-XSS-Protection': '1; mode=block', 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'X-Content-Type-Options': 'nosniff', 'Content-Type': 'text/html;charset=UTF-8', 'Date': 'Mon, 28 Oct 2024 08:05:26 GMT', 'Server': '', 'Content-Length': '275', 'Age': '0', 'Connection': 'keep-alive', 'Via': '1.1 TWM-WCG-SVR6'} (api_utlis.py:20)
+16:05:26 [    INFO] Response code: 200 (api_utlis.py:21)
+16:05:26 [    INFO] Response: {
+    "cs_app": {
+        "bill_indic": "S",
+        "bill_list": [],
+        "count": "0.00",
+        "po_chrg_amt_dscr": " ",
+        "po_due_date": "2024/10/22",
+        "po_due_date_dscr": "繳款截止日",
+        "po_msg": " ",
+        "po_new_amt": 580,
+        "po_new_amt_dscr": "本期應繳金額",
+        "po_paid_amt_dscr": " ",
+        "ret_code": "0",
+        "subscrid": "14796488"
+    }
+} (api_utlis.py:25)
+16:05:26 [    INFO] [Json 內容比對失敗], expected: {'cs_app': {'po_new_amt_dscr': '本期應繳金額', 'bill_list': [], 'subscrid': '14796488', 'po_paid_amt_dscr': ' ', 'po_new_amt': 580, 'po_due_date_dscr': '繳款截止日', 'po_due_date': '2024/10/22', 'po_msg': ' ', 'bill_indic': 'S', 'count': '0.00', 'po_chrg_amt_dscr': ' ', 'ret_code': '0'}}, actual: {'cs_app': {'po_new_amt_dscr': '本期應繳金額', 'bill_list': [], 'subscrid': '14796488', 'po_paid_amt_dscr': ' ', 'po_new_amt': 580, 'po_due_date_dscr': '繳款截止日', 'po_due_date': '2024/10/22', 'po_msg': ' ', 'bill_indic': 'S', 'count': '0.00', 'po_chrg_amt_dscr': ' ', 'ret_code': '0'}} (object_utils.py:7)
+16:05:26 [    INFO] END (test_api_QueryBillingDetail.py:46)
+16:05:26 [    INFO] Request method: get (api_utlis.py:11)
+16:05:26 [    INFO] Request URL: http://csappstage.catch.net.tw/cs/API/queryBillingDetail (api_utlis.py:12)
+16:05:26 [    INFO] Request Cookies: <RequestsCookieJar[]> (api_utlis.py:13)
+16:05:26 [    INFO] Request headers: {'User-Agent': 'python-requests/2.32.3', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'} (api_utlis.py:14)
+16:05:26 [    INFO] Request Json body: null (api_utlis.py:17)
+16:05:26 [    INFO] Response headers: {'X-Frame-Options': 'SAMEORIGIN', 'X-XSS-Protection': '1; mode=block', 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'X-Content-Type-Options': 'nosniff', 'Content-Type': 'text/html;charset=UTF-8', 'Date': 'Mon, 28 Oct 2024 08:05:26 GMT', 'Server': '', 'Content-Length': '275', 'Age': '0', 'Connection': 'keep-alive', 'Via': '1.1 TWM-WCG-SVR6'} (api_utlis.py:20)
+16:05:26 [    INFO] Response code: 200 (api_utlis.py:21)
+16:05:26 [    INFO] Response: {
+    "cs_app": {
+        "bill_indic": "S",
+        "bill_list": [],
+        "count": "0.00",
+        "po_chrg_amt_dscr": " ",
+        "po_due_date": "2024/10/22",
+        "po_due_date_dscr": "繳款截止日",
+        "po_msg": " ",
+        "po_new_amt": 580,
+        "po_new_amt_dscr": "本期應繳金額",
+        "po_paid_amt_dscr": " ",
+        "ret_code": "0",
+        "subscrid": "14796488"
+    }
+} (api_utlis.py:25)
+16:05:26 [    INFO] [Json 內容比對失敗], expected: {'cs_app': {'po_new_amt_dscr': '本期應繳金額', 'bill_list': [{'amount': 1199, 'index': 1, 'bill_item_name': '基本月費'}, {'amount': 149, 'index': 2, 'bill_item_name': 'MyMusic'}, {'amount': 250, 'index': 3, 'bill_item_name': 'MyVideo豪華月租費'}, {'amount': -60, 'index': 4, 'bill_item_name': '減免myMusic月租費'}, {'amount': -151, 'index': 5, 'bill_item_name': '減免MyVideo豪華月租費'}, {'amount': -1387, 'index': 6, 'bill_item_name': '減免帳單金額'}], 'subscrid': '524514796488', 'po_paid_amt_dscr': ' ', 'po_new_amt': 0, 'po_due_date_dscr': '繳款截止日', 'po_due_date': '無需繳款', 'po_msg': ' ', 'bill_indic': 'S', 'count': '0.00', 'po_chrg_amt_dscr': ' ', 'ret_code': '0'}}, actual: {'cs_app': {'po_new_amt_dscr': '本期應繳金額', 'bill_list': [], 'subscrid': '14796488', 'po_paid_amt_dscr': ' ', 'po_new_amt': 580, 'po_due_date_dscr': '繳款截止日', 'po_due_date': '2024/10/22', 'po_msg': ' ', 'bill_indic': 'S', 'count': '0.00', 'po_chrg_amt_dscr': ' ', 'ret_code': '0'}} (object_utils.py:7)
+16:05:26 [   ERROR] An error occurred: [Json 內容比對失敗], expected: {'cs_app': {'po_new_amt_dscr': '本期應繳金額', 'bill_list': [{'amount': 1199, 'index': 1, 'bill_item_name': '基本月費'}, {'amount': 149, 'index': 2, 'bill_item_name': 'MyMusic'}, {'amount': 250, 'index': 3, 'bill_item_name': 'MyVideo豪華月租費'}, {'amount': -60, 'index': 4, 'bill_item_name': '減免myMusic月租費'}, {'amount': -151, 'index': 5, 'bill_item_name': '減免MyVideo豪華月租費'}, {'amount': -1387, 'index': 6, 'bill_item_name': '減免帳單金額'}], 'subscrid': '524514796488', 'po_paid_amt_dscr': ' ', 'po_new_amt': 0, 'po_due_date_dscr': '繳款截止日', 'po_due_date': '無需繳款', 'po_msg': ' ', 'bill_indic': 'S', 'count': '0.00', 'po_chrg_amt_dscr': ' ', 'ret_code': '0'}}, but actual: {'cs_app': {'po_new_amt_dscr': '本期應繳金額', 'bill_list': [], 'subscrid': '14796488', 'po_paid_amt_dscr': ' ', 'po_new_amt': 580, 'po_due_date_dscr': '繳款截止日', 'po_due_date': '2024/10/22', 'po_msg': ' ', 'bill_indic': 'S', 'count': '0.00', 'po_chrg_amt_dscr': ' ', 'ret_code': '0'}} (test_api_QueryBillingDetail.py:42)
+Traceback (most recent call last):
+  File "C:\CS_app_autotest_tina(1)\test_api\test_api_QueryBillingDetail.py", line 38, in test_api_queryBillingDetailAPIs_success
+    ObjectUtils.equal_str("Json 內容比對失敗", excel_data, response_data)
+  File "C:\CS_app_autotest_tina(1)\utils\object_utils.py", line 8, in equal_str
+    assert str(exp_value) == str(act_value), f"[{key}], expected: {exp_value}, but actual: {act_value}"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: [Json 內容比對失敗], expected: {'cs_app': {'po_new_amt_dscr': '本期應繳金額', 'bill_list': [{'amount': 1199, 'index': 1, 'bill_item_name': '基本月費'}, {'amount': 149, 'index': 2, 'bill_item_name': 'MyMusic'}, {'amount': 250, 'index': 3, 'bill_item_name': 'MyVideo豪華月租費'}, {'amount': -60, 'index': 4, 'bill_item_name': '減免myMusic月租費'}, {'amount': -151, 'index': 5, 'bill_item_name': '減免MyVideo豪華月租費'}, {'amount': -1387, 'index': 6, 'bill_item_name': '減免帳單金額'}], 'subscrid': '524514796488', 'po_paid_amt_dscr': ' ', 'po_new_amt': 0, 'po_due_date_dscr': '繳款截止日', 'po_due_date': '無需繳款', 'po_msg': ' ', 'bill_indic': 'S', 'count': '0.00', 'po_chrg_amt_dscr': ' ', 'ret_code': '0'}}, but actual: {'cs_app': {'po_new_amt_dscr': '本期應繳金額', 'bill_list': [], 'subscrid': '14796488', 'po_paid_amt_dscr': ' ', 'po_new_amt': 580, 'po_due_date_dscr': '繳款截止日', 'po_due_date': '2024/10/22', 'po_msg': ' ', 'bill_indic': 'S', 'count': '0.00', 'po_chrg_amt_dscr': ' ', 'ret_code': '0'}}
+16:05:26 [    INFO] END (test_api_QueryBillingDetail.py:46)
+16:05:26 [    INFO] Request method: get (api_utlis.py:11)
+16:05:26 [    INFO] Request URL: http://csappstage.catch.net.tw/cs/API/queryBillingDetail (api_utlis.py:12)
+16:05:26 [    INFO] Request Cookies: <RequestsCookieJar[]> (api_utlis.py:13)
+16:05:26 [    INFO] Request headers: {'User-Agent': 'python-requests/2.32.3', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'} (api_utlis.py:14)
+16:05:26 [    INFO] Request Json body: null (api_utlis.py:17)
+16:05:26 [    INFO] Response headers: {'X-Frame-Options': 'SAMEORIGIN', 'X-XSS-Protection': '1; mode=block', 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'X-Content-Type-Options': 'nosniff', 'Content-Type': 'text/html;charset=UTF-8', 'Date': 'Mon, 28 Oct 2024 08:05:26 GMT', 'Server': '', 'Content-Length': '275', 'Age': '0', 'Connection': 'keep-alive', 'Via': '1.1 TWM-WCG-SVR6'} (api_utlis.py:20)
+16:05:26 [    INFO] Response code: 200 (api_utlis.py:21)
+16:05:26 [    INFO] Response: {
+    "cs_app": {
+        "bill_indic": "S",
+        "bill_list": [],
+        "count": "0.00",
+        "po_chrg_amt_dscr": " ",
+        "po_due_date": "2024/10/22",
+        "po_due_date_dscr": "繳款截止日",
+        "po_msg": " ",
+        "po_new_amt": 580,
+        "po_new_amt_dscr": "本期應繳金額",
+        "po_paid_amt_dscr": " ",
+        "ret_code": "0",
+        "subscrid": "14796488"
+    }
+} (api_utlis.py:25)
+16:05:26 [    INFO] [Json 內容比對失敗], expected: {'cs_app': {'po_new_amt_dscr': '本期應繳金額', 'bill_list': [{'amount': 1199, 'index': 1, 'bill_item_name': '基本月費'}, {'amount': 149, 'index': 2, 'bill_item_name': 'MyMusic'}, {'amount': 2757550, 'index': 3, 'bill_item_name': 'MyVideo豪華月租費'}, {'amount': -60, 'index': 4, 'bill_item_name': '減免myMusic月租費'}, {'amount': -151, 'index': 5, 'bill_item_name': '減免MyVideo豪華月租費'}, {'amount': -1387, 'index': 6, 'bill_item_name': '減免帳單金額'}], 'subscrid': '14796488', 'po_paid_amt_dscr': ' ', 'po_new_amt': 0, 'po_due_date_dscr': '繳款截止日', 'po_due_date': '無需繳款', 'po_msg': ' ', 'bill_indic': 'S', 'count': '0.00', 'po_chrg_amt_dscr': ' ', 'ret_code': '0'}}, actual: {'cs_app': {'po_new_amt_dscr': '本期應繳金額', 'bill_list': [], 'subscrid': '14796488', 'po_paid_amt_dscr': ' ', 'po_new_amt': 580, 'po_due_date_dscr': '繳款截止日', 'po_due_date': '2024/10/22', 'po_msg': ' ', 'bill_indic': 'S', 'count': '0.00', 'po_chrg_amt_dscr': ' ', 'ret_code': '0'}} (object_utils.py:7)
+16:05:26 [   ERROR] An error occurred: [Json 內容比對失敗], expected: {'cs_app': {'po_new_amt_dscr': '本期應繳金額', 'bill_list': [{'amount': 1199, 'index': 1, 'bill_item_name': '基本月費'}, {'amount': 149, 'index': 2, 'bill_item_name': 'MyMusic'}, {'amount': 2757550, 'index': 3, 'bill_item_name': 'MyVideo豪華月租費'}, {'amount': -60, 'index': 4, 'bill_item_name': '減免myMusic月租費'}, {'amount': -151, 'index': 5, 'bill_item_name': '減免MyVideo豪華月租費'}, {'amount': -1387, 'index': 6, 'bill_item_name': '減免帳單金額'}], 'subscrid': '14796488', 'po_paid_amt_dscr': ' ', 'po_new_amt': 0, 'po_due_date_dscr': '繳款截止日', 'po_due_date': '無需繳款', 'po_msg': ' ', 'bill_indic': 'S', 'count': '0.00', 'po_chrg_amt_dscr': ' ', 'ret_code': '0'}}, but actual: {'cs_app': {'po_new_amt_dscr': '本期應繳金額', 'bill_list': [], 'subscrid': '14796488', 'po_paid_amt_dscr': ' ', 'po_new_amt': 580, 'po_due_date_dscr': '繳款截止日', 'po_due_date': '2024/10/22', 'po_msg': ' ', 'bill_indic': 'S', 'count': '0.00', 'po_chrg_amt_dscr': ' ', 'ret_code': '0'}} (test_api_QueryBillingDetail.py:42)
+Traceback (most recent call last):
+  File "C:\CS_app_autotest_tina(1)\test_api\test_api_QueryBillingDetail.py", line 38, in test_api_queryBillingDetailAPIs_success
+    ObjectUtils.equal_str("Json 內容比對失敗", excel_data, response_data)
+  File "C:\CS_app_autotest_tina(1)\utils\object_utils.py", line 8, in equal_str
+    assert str(exp_value) == str(act_value), f"[{key}], expected: {exp_value}, but actual: {act_value}"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: [Json 內容比對失敗], expected: {'cs_app': {'po_new_amt_dscr': '本期應繳金額', 'bill_list': [{'amount': 1199, 'index': 1, 'bill_item_name': '基本月費'}, {'amount': 149, 'index': 2, 'bill_item_name': 'MyMusic'}, {'amount': 2757550, 'index': 3, 'bill_item_name': 'MyVideo豪華月租費'}, {'amount': -60, 'index': 4, 'bill_item_name': '減免myMusic月租費'}, {'amount': -151, 'index': 5, 'bill_item_name': '減免MyVideo豪華月租費'}, {'amount': -1387, 'index': 6, 'bill_item_name': '減免帳單金額'}], 'subscrid': '14796488', 'po_paid_amt_dscr': ' ', 'po_new_amt': 0, 'po_due_date_dscr': '繳款截止日', 'po_due_date': '無需繳款', 'po_msg': ' ', 'bill_indic': 'S', 'count': '0.00', 'po_chrg_amt_dscr': ' ', 'ret_code': '0'}}, but actual: {'cs_app': {'po_new_amt_dscr': '本期應繳金額', 'bill_list': [], 'subscrid': '14796488', 'po_paid_amt_dscr': ' ', 'po_new_amt': 580, 'po_due_date_dscr': '繳款截止日', 'po_due_date': '2024/10/22', 'po_msg': ' ', 'bill_indic': 'S', 'count': '0.00', 'po_chrg_amt_dscr': ' ', 'ret_code': '0'}}
+16:05:26 [    INFO] END (test_api_QueryBillingDetail.py:46)
+16:05:26 [    INFO] Request method: get (api_utlis.py:11)
+16:05:26 [    INFO] Request URL: http://csappstage.catch.net.tw/cs/API/queryContinents (api_utlis.py:12)
+16:05:26 [    INFO] Request Cookies: <RequestsCookieJar[]> (api_utlis.py:13)
+16:05:26 [    INFO] Request headers: {'User-Agent': 'python-requests/2.32.3', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'} (api_utlis.py:14)
+16:05:26 [    INFO] Request Json body: null (api_utlis.py:17)
+16:05:26 [    INFO] Response headers: {'X-Frame-Options': 'SAMEORIGIN', 'X-XSS-Protection': '1; mode=block', 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'X-Content-Type-Options': 'nosniff', 'Content-Type': 'text/html;charset=UTF-8', 'Date': 'Mon, 28 Oct 2024 08:05:26 GMT', 'Server': '', 'Content-Length': '283', 'Age': '0', 'Connection': 'keep-alive', 'Via': '1.1 TWM-WCG-SVR6'} (api_utlis.py:20)
+16:05:26 [    INFO] Response code: 200 (api_utlis.py:21)
+16:05:26 [    INFO] Response: {
+    "cs_app": {
+        "con_list": [
+            {
+                "con_code": "50",
+                "con_name": "大洋洲",
+                "index": 1
+            },
+            {
+                "con_code": "40",
+                "con_name": "歐洲",
+                "index": 2
+            },
+            {
+                "con_code": "30",
+                "con_name": "非洲",
+                "index": 3
+            },
+            {
+                "con_code": "20",
+                "con_name": "美洲",
+                "index": 4
+            },
+            {
+                "con_code": "10",
+                "con_name": "亞洲",
+                "index": 5
+            }
+        ],
+        "ret_code": "0"
+    }
+} (api_utlis.py:25)
+16:05:26 [    INFO] [Json 內容比對失敗], expected: {'con_name': '大洋洲', 'index': 1, 'con_code': '50'}, actual: {'con_name': '大洋洲', 'index': 1, 'con_code': '50'} (object_utils.py:7)
+16:05:26 [    INFO] [Json 內容比對失敗], expected: {'con_name': '歐洲', 'index': 2, 'con_code': '40'}, actual: {'con_name': '歐洲', 'index': 2, 'con_code': '40'} (object_utils.py:7)
+16:05:26 [    INFO] [Json 內容比對失敗], expected: {'con_name': '非洲', 'index': 3, 'con_code': '30'}, actual: {'con_name': '非洲', 'index': 3, 'con_code': '30'} (object_utils.py:7)
+16:05:26 [    INFO] [Json 內容比對失敗], expected: {'con_name': '美洲', 'index': 4, 'con_code': '20'}, actual: {'con_name': '美洲', 'index': 4, 'con_code': '20'} (object_utils.py:7)
+16:05:26 [    INFO] [Json 內容比對失敗], expected: {'con_name': '亞洲', 'index': 5, 'con_code': '10'}, actual: {'con_name': '亞洲', 'index': 5, 'con_code': '10'} (object_utils.py:7)
+16:05:26 [    INFO] END (test_api_QueryContinents.py:50)
+16:05:26 [    INFO] Request method: get (api_utlis.py:11)
+16:05:26 [    INFO] Request URL: http://csappstage.catch.net.tw/cs/API/queryContinents (api_utlis.py:12)
+16:05:26 [    INFO] Request Cookies: <RequestsCookieJar[]> (api_utlis.py:13)
+16:05:26 [    INFO] Request headers: {'User-Agent': 'python-requests/2.32.3', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'} (api_utlis.py:14)
+16:05:26 [    INFO] Request Json body: null (api_utlis.py:17)
+16:05:27 [    INFO] Response headers: {'X-Frame-Options': 'SAMEORIGIN', 'X-XSS-Protection': '1; mode=block', 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'X-Content-Type-Options': 'nosniff', 'Content-Type': 'text/html;charset=UTF-8', 'Date': 'Mon, 28 Oct 2024 08:05:26 GMT', 'Server': '', 'Content-Length': '283', 'Age': '1', 'Connection': 'keep-alive', 'Via': '1.1 TWM-WCG-SVR6'} (api_utlis.py:20)
+16:05:27 [    INFO] Response code: 200 (api_utlis.py:21)
+16:05:27 [    INFO] Response: {
+    "cs_app": {
+        "con_list": [
+            {
+                "con_code": "50",
+                "con_name": "大洋洲",
+                "index": 1
+            },
+            {
+                "con_code": "40",
+                "con_name": "歐洲",
+                "index": 2
+            },
+            {
+                "con_code": "30",
+                "con_name": "非洲",
+                "index": 3
+            },
+            {
+                "con_code": "20",
+                "con_name": "美洲",
+                "index": 4
+            },
+            {
+                "con_code": "10",
+                "con_name": "亞洲",
+                "index": 5
+            }
+        ],
+        "ret_code": "0"
+    }
+} (api_utlis.py:25)
+16:05:27 [    INFO] [Json 內容比對失敗], expected: {'con_name': '大洋洲', 'index': 1, 'con_code': '50'}, actual: {'con_name': '大洋洲', 'index': 1, 'con_code': '50'} (object_utils.py:7)
+16:05:27 [    INFO] [Json 內容比對失敗], expected: {'con_name': '歐洲', 'index': 2, 'con_code': '40'}, actual: {'con_name': '歐洲', 'index': 2, 'con_code': '40'} (object_utils.py:7)
+16:05:27 [    INFO] [Json 內容比對失敗], expected: {'con_name': '非洲', 'index': 3, 'con_code': '30'}, actual: {'con_name': '非洲', 'index': 3, 'con_code': '30'} (object_utils.py:7)
+16:05:27 [    INFO] [Json 內容比對失敗], expected: {'con_name': '美洲', 'index': 4, 'con_code': '20'}, actual: {'con_name': '美洲', 'index': 4, 'con_code': '20'} (object_utils.py:7)
+16:05:27 [    INFO] [Json 內容比對失敗], expected: {'con_name': '亞洲', 'index': 5, 'con_code': '10'}, actual: {'con_name': '亞洲', 'index': 5, 'con_code': '10'} (object_utils.py:7)
+16:05:27 [    INFO] END (test_api_QueryContinents.py:50)
+16:05:27 [    INFO] Request method: get (api_utlis.py:11)
+16:05:27 [    INFO] Request URL: http://csappstage.catch.net.tw/cs/API/queryContinents (api_utlis.py:12)
+16:05:27 [    INFO] Request Cookies: <RequestsCookieJar[]> (api_utlis.py:13)
+16:05:27 [    INFO] Request headers: {'User-Agent': 'python-requests/2.32.3', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'} (api_utlis.py:14)
+16:05:27 [    INFO] Request Json body: null (api_utlis.py:17)
+16:05:27 [    INFO] Response headers: {'X-Frame-Options': 'SAMEORIGIN', 'X-XSS-Protection': '1; mode=block', 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'X-Content-Type-Options': 'nosniff', 'Content-Type': 'text/html;charset=UTF-8', 'Date': 'Mon, 28 Oct 2024 08:05:27 GMT', 'Server': '', 'Content-Length': '283', 'Age': '0', 'Connection': 'keep-alive', 'Via': '1.1 TWM-WCG-SVR6'} (api_utlis.py:20)
+16:05:27 [    INFO] Response code: 200 (api_utlis.py:21)
+16:05:27 [    INFO] Response: {
+    "cs_app": {
+        "con_list": [
+            {
+                "con_code": "50",
+                "con_name": "大洋洲",
+                "index": 1
+            },
+            {
+                "con_code": "40",
+                "con_name": "歐洲",
+                "index": 2
+            },
+            {
+                "con_code": "30",
+                "con_name": "非洲",
+                "index": 3
+            },
+            {
+                "con_code": "20",
+                "con_name": "美洲",
+                "index": 4
+            },
+            {
+                "con_code": "10",
+                "con_name": "亞洲",
+                "index": 5
+            }
+        ],
+        "ret_code": "0"
+    }
+} (api_utlis.py:25)
+16:05:27 [    INFO] [Json 內容比對失敗], expected: {'con_name': '大洋洲', 'index': 1, 'con_code': '50'}, actual: {'con_name': '大洋洲', 'index': 1, 'con_code': '50'} (object_utils.py:7)
+16:05:27 [    INFO] [Json 內容比對失敗], expected: {'con_name': '歐洲', 'index': 2, 'con_code': '40'}, actual: {'con_name': '歐洲', 'index': 2, 'con_code': '40'} (object_utils.py:7)
+16:05:27 [    INFO] [Json 內容比對失敗], expected: {'con_name': '非洲', 'index': 3, 'con_code': '30'}, actual: {'con_name': '非洲', 'index': 3, 'con_code': '30'} (object_utils.py:7)
+16:05:27 [    INFO] [Json 內容比對失敗], expected: {'con_name': '美洲', 'index': 4, 'con_code': '20'}, actual: {'con_name': '美洲', 'index': 4, 'con_code': '20'} (object_utils.py:7)
+16:05:27 [    INFO] [Json 內容比對失敗], expected: {'con_name': '亞洲', 'index': 5, 'con_code': '10'}, actual: {'con_name': '亞洲', 'index': 6, 'con_code': '10'} (object_utils.py:7)
+16:05:27 [   ERROR] An error occurred: [Json 內容比對失敗], expected: {'con_name': '亞洲', 'index': 5, 'con_code': '10'}, but actual: {'con_name': '亞洲', 'index': 6, 'con_code': '10'} (test_api_QueryContinents.py:46)
+Traceback (most recent call last):
+  File "C:\CS_app_autotest_tina(1)\test_api\test_api_QueryContinents.py", line 42, in test_api_queryContinentsAPIs_success
+    ObjectUtils.equal_str("Json 內容比對失敗", r_item, e_item)
+  File "C:\CS_app_autotest_tina(1)\utils\object_utils.py", line 8, in equal_str
+    assert str(exp_value) == str(act_value), f"[{key}], expected: {exp_value}, but actual: {act_value}"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: [Json 內容比對失敗], expected: {'con_name': '亞洲', 'index': 5, 'con_code': '10'}, but actual: {'con_name': '亞洲', 'index': 6, 'con_code': '10'}
+16:05:27 [    INFO] END (test_api_QueryContinents.py:50)
+16:05:27 [    INFO] Request method: get (api_utlis.py:11)
+16:05:27 [    INFO] Request URL: http://csappstage.catch.net.tw/cs/API/queryContinents (api_utlis.py:12)
+16:05:27 [    INFO] Request Cookies: <RequestsCookieJar[]> (api_utlis.py:13)
+16:05:27 [    INFO] Request headers: {'User-Agent': 'python-requests/2.32.3', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'} (api_utlis.py:14)
+16:05:27 [    INFO] Request Json body: null (api_utlis.py:17)
+16:05:27 [    INFO] Response headers: {'X-Frame-Options': 'SAMEORIGIN', 'X-XSS-Protection': '1; mode=block', 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'X-Content-Type-Options': 'nosniff', 'Content-Type': 'text/html;charset=UTF-8', 'Date': 'Mon, 28 Oct 2024 08:05:27 GMT', 'Server': '', 'Content-Length': '283', 'Age': '0', 'Connection': 'keep-alive', 'Via': '1.1 TWM-WCG-SVR6'} (api_utlis.py:20)
+16:05:27 [    INFO] Response code: 200 (api_utlis.py:21)
+16:05:27 [    INFO] Response: {
+    "cs_app": {
+        "con_list": [
+            {
+                "con_code": "50",
+                "con_name": "大洋洲",
+                "index": 1
+            },
+            {
+                "con_code": "40",
+                "con_name": "歐洲",
+                "index": 2
+            },
+            {
+                "con_code": "30",
+                "con_name": "非洲",
+                "index": 3
+            },
+            {
+                "con_code": "20",
+                "con_name": "美洲",
+                "index": 4
+            },
+            {
+                "con_code": "10",
+                "con_name": "亞洲",
+                "index": 5
+            }
+        ],
+        "ret_code": "0"
+    }
+} (api_utlis.py:25)
+16:05:27 [    INFO] [Json 內容比對失敗], expected: {'con_name': '大洋洲', 'index': 1, 'con_code': '50'}, actual: {'con_name': '大洋洲', 'index': 1, 'con_code': '50'} (object_utils.py:7)
+16:05:27 [    INFO] [Json 內容比對失敗], expected: {'con_name': '歐洲', 'index': 2, 'con_code': '40'}, actual: {'con_name': '歐洲', 'index': 2, 'con_code': '40'} (object_utils.py:7)
+16:05:27 [    INFO] [Json 內容比對失敗], expected: {'con_name': '非洲', 'index': 3, 'con_code': '30'}, actual: {'con_name': '非洲', 'index': 4, 'con_code': '30'} (object_utils.py:7)
+16:05:27 [   ERROR] An error occurred: [Json 內容比對失敗], expected: {'con_name': '非洲', 'index': 3, 'con_code': '30'}, but actual: {'con_name': '非洲', 'index': 4, 'con_code': '30'} (test_api_QueryContinents.py:46)
+Traceback (most recent call last):
+  File "C:\CS_app_autotest_tina(1)\test_api\test_api_QueryContinents.py", line 42, in test_api_queryContinentsAPIs_success
+    ObjectUtils.equal_str("Json 內容比對失敗", r_item, e_item)
+  File "C:\CS_app_autotest_tina(1)\utils\object_utils.py", line 8, in equal_str
+    assert str(exp_value) == str(act_value), f"[{key}], expected: {exp_value}, but actual: {act_value}"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: [Json 內容比對失敗], expected: {'con_name': '非洲', 'index': 3, 'con_code': '30'}, but actual: {'con_name': '非洲', 'index': 4, 'con_code': '30'}
+16:05:27 [    INFO] END (test_api_QueryContinents.py:50)
+16:05:27 [    INFO] Request method: get (api_utlis.py:11)
+16:05:27 [    INFO] Request URL: http://csappstage.catch.net.tw/cs/API/queryCountries (api_utlis.py:12)
+16:05:27 [    INFO] Request Cookies: <RequestsCookieJar[]> (api_utlis.py:13)
+16:05:27 [    INFO] Request headers: {'User-Agent': 'python-requests/2.32.3', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'} (api_utlis.py:14)
+16:05:27 [    INFO] Request Json body: null (api_utlis.py:17)
+16:05:27 [    INFO] Response headers: {'X-Frame-Options': 'SAMEORIGIN', 'X-XSS-Protection': '1; mode=block', 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'X-Content-Type-Options': 'nosniff', 'Content-Type': 'text/html;charset=UTF-8', 'Date': 'Mon, 28 Oct 2024 08:05:27 GMT', 'Server': '', 'Content-Length': '15702', 'Age': '0', 'Connection': 'keep-alive', 'Via': '1.1 TWM-WCG-SVR6'} (api_utlis.py:20)
+16:05:27 [    INFO] Response code: 200 (api_utlis.py:21)
+16:05:27 [    INFO] Response: {
+    "cs_app": {
+        "con_list": [
+            {
+                "con_code": "50",
+                "con_id": "1170237392667",
+                "con_name": "澳洲",
+                "index": 1
+            },
+            {
+                "con_code": "50",
+                "con_id": "1170237392732",
+                "con_name": "關島",
+                "index": 2
+            },
+            {
+                "con_code": "50",
+                "con_id": "1170237392804",
+                "con_name": "紐西蘭",
+                "index": 3
+            },
+            {
+                "con_code": "50",
+                "con_id": "20210331007",
+                "con_name": "馬爾地夫",
+                "index": 4
+            },
+            {
+                "con_code": "50",
+                "con_id": "20210331001",
+                "con_name": "索羅門群島",
+                "index": 5
+            },
+            {
+                "con_code": "50",
+                "con_id": "20210331015",
+                "con_name": "薩摩亞",
+                "index": 6
+            },
+            {
+                "con_code": "50",
+                "con_id": "20210331017",
+                "con_name": "多哥",
+                "index": 7
+            },
+            {
+                "con_code": "50",
+                "con_id": "20210331011",
+                "con_name": "巴布亞紐幾內亞",
+                "index": 8
+            },
+            {
+                "con_code": "50",
+                "con_id": "20210331008",
+                "con_name": "東加",
+                "index": 9
+            },
+            {
+                "con_code": "50",
+                "con_id": "20210329059",
+                "con_name": "法屬新喀里多尼亞",
+                "index": 10
+            },
+            {
+                "con_code": "50",
+                "con_id": "20210329058",
+                "con_name": "密克羅尼西亞",
+                "index": 11
+            },
+            {
+                "con_code": "50",
+                "con_id": "20210329056",
+                "con_name": "法屬玻里尼西亞",
+                "index": 12
+            },
+            {
+                "con_code": "50",
+                "con_id": "20210329055",
+                "con_name": "斐濟",
+                "index": 13
+            },
+            {
+                "con_code": "50",
+                "con_id": "20210329054",
+                "con_name": "庫克群島",
+                "index": 14
+            },
+            {
+                "con_code": "50",
+                "con_id": "20210329001",
+                "con_name": "吉里巴斯共和國",
+                "index": 15
+            },
+            {
+                "con_code": "50",
+                "con_id": "20210329062",
+                "con_name": "萬那度",
+                "index": 16
+            },
+            {
+                "con_code": "50",
+                "con_id": "1170237392826",
+                "con_name": "帛琉",
+                "index": 17
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392719",
+                "con_name": "法國",
+                "index": 1
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392868",
+                "con_name": "英國",
+                "index": 2
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392751",
+                "con_name": "義大利",
+                "index": 3
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392852",
+                "con_name": "瑞士",
+                "index": 4
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392726",
+                "con_name": "德國",
+                "index": 5
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392842",
+                "con_name": "西班牙",
+                "index": 6
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392802",
+                "con_name": "荷蘭",
+                "index": 7
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392707",
+                "con_name": "捷克",
+                "index": 8
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392808",
+                "con_name": "挪威",
+                "index": 9
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392669",
+                "con_name": "奧地利",
+                "index": 10
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392677",
+                "con_name": "比利時",
+                "index": 11
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392703",
+                "con_name": "克羅埃西亞",
+                "index": 12
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392830",
+                "con_name": "俄羅斯",
+                "index": 13
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392730",
+                "con_name": "希臘",
+                "index": 14
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392822",
+                "con_name": "葡萄牙",
+                "index": 15
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392836",
+                "con_name": "斯洛伐克",
+                "index": 16
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392820",
+                "con_name": "波蘭",
+                "index": 17
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392715",
+                "con_name": "愛沙尼亞",
+                "index": 18
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392709",
+                "con_name": "丹麥",
+                "index": 19
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392850",
+                "con_name": "瑞典",
+                "index": 20
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392780",
+                "con_name": "盧森堡",
+                "index": 21
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392746",
+                "con_name": "愛爾蘭",
+                "index": 22
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392738",
+                "con_name": "匈牙利",
+                "index": 23
+            },
+            {
+                "con_code": "40",
+                "con_id": "1225353574045",
+                "con_name": "摩納哥",
+                "index": 24
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392717",
+                "con_name": "芬蘭",
+                "index": 25
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392740",
+                "con_name": "冰島",
+                "index": 26
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392728",
+                "con_name": "直布羅陀",
+                "index": 27
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392663",
+                "con_name": "阿爾巴尼亞",
+                "index": 28
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392788",
+                "con_name": "馬爾他",
+                "index": 29
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392828",
+                "con_name": "羅馬尼亞",
+                "index": 30
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392689",
+                "con_name": "保加利亞",
+                "index": 31
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392778",
+                "con_name": "立陶宛",
+                "index": 32
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392772",
+                "con_name": "拉脫維亞",
+                "index": 33
+            },
+            {
+                "con_code": "40",
+                "con_id": "1199070481302",
+                "con_name": "白俄羅斯",
+                "index": 34
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392870",
+                "con_name": "烏克蘭",
+                "index": 35
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392776",
+                "con_name": "列支敦士登",
+                "index": 36
+            },
+            {
+                "con_code": "40",
+                "con_id": "20210331016",
+                "con_name": "柯索沃",
+                "index": 37
+            },
+            {
+                "con_code": "40",
+                "con_id": "20210331005",
+                "con_name": "納哥諾卡拉巴克共和國",
+                "index": 38
+            },
+            {
+                "con_code": "40",
+                "con_id": "20210330016",
+                "con_name": "斯洛維尼亞",
+                "index": 39
+            },
+            {
+                "con_code": "40",
+                "con_id": "20210330015",
+                "con_name": "摩爾多瓦",
+                "index": 40
+            },
+            {
+                "con_code": "40",
+                "con_id": "20210330014",
+                "con_name": "賽普勒斯",
+                "index": 41
+            },
+            {
+                "con_code": "40",
+                "con_id": "20210330013",
+                "con_name": "波士尼亞 & 赫塞哥維納",
+                "index": 42
+            },
+            {
+                "con_code": "40",
+                "con_id": "20210329052",
+                "con_name": "塞爾維亞",
+                "index": 43
+            },
+            {
+                "con_code": "40",
+                "con_id": "20210329050",
+                "con_name": "蒙特內哥羅",
+                "index": 44
+            },
+            {
+                "con_code": "40",
+                "con_id": "20210329049",
+                "con_name": "馬其頓",
+                "index": 45
+            },
+            {
+                "con_code": "40",
+                "con_id": "20210329047",
+                "con_name": "英屬根西島",
+                "index": 46
+            },
+            {
+                "con_code": "40",
+                "con_id": "11701231241412",
+                "con_name": "挪威航空",
+                "index": 47
+            },
+            {
+                "con_code": "40",
+                "con_id": "20210408162314278",
+                "con_name": "澤西島",
+                "index": 48
+            },
+            {
+                "con_code": "30",
+                "con_id": "1170237392711",
+                "con_name": "埃及",
+                "index": 1
+            },
+            {
+                "con_code": "30",
+                "con_id": "1170237392799",
+                "con_name": "摩洛哥",
+                "index": 2
+            },
+            {
+                "con_code": "30",
+                "con_id": "1170237392840",
+                "con_name": "南非",
+                "index": 3
+            },
+            {
+                "con_code": "30",
+                "con_id": "1170237392762",
+                "con_name": "肯亞",
+                "index": 4
+            },
+            {
+                "con_code": "30",
+                "con_id": "1170237392859",
+                "con_name": "突尼西亞",
+                "index": 5
+            },
+            {
+                "con_code": "30",
+                "con_id": "1203591091080",
+                "con_name": "奈及利亞",
+                "index": 6
+            },
+            {
+                "con_code": "30",
+                "con_id": "1170237392865",
+                "con_name": "烏干達",
+                "index": 7
+            },
+            {
+                "con_code": "30",
+                "con_id": "1170237392885",
+                "con_name": "辛巴威",
+                "index": 8
+            },
+            {
+                "con_code": "30",
+                "con_id": "1170237392753",
+                "con_name": "象牙海岸",
+                "index": 9
+            },
+            {
+                "con_code": "30",
+                "con_id": "1223878662767",
+                "con_name": "塞內加爾",
+                "index": 10
+            },
+            {
+                "con_code": "30",
+                "con_id": "1269913404144",
+                "con_name": "剛果",
+                "index": 11
+            },
+            {
+                "con_code": "30",
+                "con_id": "1170237392721",
+                "con_name": "甘比亞",
+                "index": 12
+            },
+            {
+                "con_code": "30",
+                "con_id": "1170237392847",
+                "con_name": "蘇丹",
+                "index": 13
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210331013",
+                "con_name": "維德角",
+                "index": 14
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210331002",
+                "con_name": "貝南",
+                "index": 15
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210408162314195",
+                "con_name": "喀麥隆",
+                "index": 16
+            },
+            {
+                "con_code": "30",
+                "con_id": "1244100944057",
+                "con_name": "馬拉威",
+                "index": 17
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210426114603727",
+                "con_name": "尚比亞",
+                "index": 18
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210329002",
+                "con_name": "幾內亞比紹",
+                "index": 19
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210329003",
+                "con_name": "波扎那",
+                "index": 20
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210329004",
+                "con_name": "布及納法索",
+                "index": 21
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210329005",
+                "con_name": "蒲隆地",
+                "index": 22
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210329006",
+                "con_name": "中非共和國",
+                "index": 23
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210329007",
+                "con_name": "查德",
+                "index": 24
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210329008",
+                "con_name": "剛果民主共和國",
+                "index": 25
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210329009",
+                "con_name": "赤道幾內亞",
+                "index": 26
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210329010",
+                "con_name": "加彭",
+                "index": 27
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210329011",
+                "con_name": "迦納",
+                "index": 28
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210329012",
+                "con_name": "幾內亞",
+                "index": 29
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210329013",
+                "con_name": "賴索托",
+                "index": 30
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210329014",
+                "con_name": "賴比瑞亞",
+                "index": 31
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210329015",
+                "con_name": "馬達加斯加",
+                "index": 32
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210329016",
+                "con_name": "馬利",
+                "index": 33
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210329017",
+                "con_name": "茅利塔尼亞",
+                "index": 34
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210329018",
+                "con_name": "莫三比克",
+                "index": 35
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210329020",
+                "con_name": "納米比亞",
+                "index": 36
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210329021",
+                "con_name": "尼日",
+                "index": 37
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210329022",
+                "con_name": "法屬留尼旺島",
+                "index": 38
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210329023",
+                "con_name": "盧安達",
+                "index": 39
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210329024",
+                "con_name": "聖多美普林西比",
+                "index": 40
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210329025",
+                "con_name": "塞席爾",
+                "index": 41
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210329027",
+                "con_name": "南蘇丹",
+                "index": 42
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210330001",
+                "con_name": "阿爾及利亞",
+                "index": 43
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210330002",
+                "con_name": "模里西斯",
+                "index": 44
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210330003",
+                "con_name": "史瓦帝尼",
+                "index": 45
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210330004",
+                "con_name": "坦尚尼亞",
+                "index": 46
+            },
+            {
+                "con_code": "20",
+                "con_id": "1170237392875",
+                "con_name": "美國",
+                "index": 1
+            },
+            {
+                "con_code": "20",
+                "con_id": "1170237392697",
+                "con_name": "加拿大",
+                "index": 2
+            },
+            {
+                "con_code": "20",
+                "con_id": "1170237392816",
+                "con_name": "秘魯",
+                "index": 3
+            },
+            {
+                "con_code": "20",
+                "con_id": "1170237392792",
+                "con_name": "墨西哥",
+                "index": 4
+            },
+            {
+                "con_code": "20",
+                "con_id": "1170237392699",
+                "con_name": "智利",
+                "index": 5
+            },
+            {
+                "con_code": "20",
+                "con_id": "1170237392691",
+                "con_name": "巴拿馬",
+                "index": 6
+            },
+            {
+                "con_code": "20",
+                "con_id": "1170237392665",
+                "con_name": "阿根廷",
+                "index": 7
+            },
+            {
+                "con_code": "20",
+                "con_id": "1170237392685",
+                "con_name": "巴西",
+                "index": 8
+            },
+            {
+                "con_code": "20",
+                "con_id": "20110324192918833221",
+                "con_name": "哥倫比亞",
+                "index": 9
+            },
+            {
+                "con_code": "20",
+                "con_id": "1273545088068",
+                "con_name": "瓜地馬拉",
+                "index": 10
+            },
+            {
+                "con_code": "20",
+                "con_id": "1274432225155",
+                "con_name": "哥斯大黎加",
+                "index": 11
+            },
+            {
+                "con_code": "20",
+                "con_id": "1170237392814",
+                "con_name": "巴拉圭",
+                "index": 12
+            },
+            {
+                "con_code": "20",
+                "con_id": "1170237392681",
+                "con_name": "貝里斯",
+                "index": 13
+            },
+            {
+                "con_code": "20",
+                "con_id": "1170237392756",
+                "con_name": "牙買加",
+                "index": 14
+            },
+            {
+                "con_code": "20",
+                "con_id": "20210331003",
+                "con_name": "玻利維亞",
+                "index": 15
+            },
+            {
+                "con_code": "20",
+                "con_id": "20210331018",
+                "con_name": "海地",
+                "index": 16
+            },
+            {
+                "con_code": "20",
+                "con_id": "20210331009",
+                "con_name": "英屬安圭拉島",
+                "index": 17
+            },
+            {
+                "con_code": "20",
+                "con_id": "20210330084",
+                "con_name": "聖露西亞",
+                "index": 18
+            },
+            {
+                "con_code": "20",
+                "con_id": "20210408162314331",
+                "con_name": "宏都拉斯",
+                "index": 19
+            },
+            {
+                "con_code": "20",
+                "con_id": "20210408162314587",
+                "con_name": "薩爾瓦多",
+                "index": 20
+            },
+            {
+                "con_code": "20",
+                "con_id": "20210426114603659",
+                "con_name": "千里達及托巴哥共和國",
+                "index": 21
+            },
+            {
+                "con_code": "20",
+                "con_id": "20210330081",
+                "con_name": "多米尼克",
+                "index": 22
+            },
+            {
+                "con_code": "20",
+                "con_id": "20210329029",
+                "con_name": "巴哈馬",
+                "index": 23
+            },
+            {
+                "con_code": "20",
+                "con_id": "20210329030",
+                "con_name": "巴貝多",
+                "index": 24
+            },
+            {
+                "con_code": "20",
+                "con_id": "20210329031",
+                "con_name": "古巴",
+                "index": 25
+            },
+            {
+                "con_code": "20",
+                "con_id": "20210329032",
+                "con_name": "古拉索",
+                "index": 26
+            },
+            {
+                "con_code": "20",
+                "con_id": "20210329033",
+                "con_name": "厄瓜多",
+                "index": 27
+            },
+            {
+                "con_code": "20",
+                "con_id": "20210329034",
+                "con_name": "法屬圭亞那",
+                "index": 28
+            },
+            {
+                "con_code": "20",
+                "con_id": "20210329035",
+                "con_name": "蓋亞那",
+                "index": 29
+            },
+            {
+                "con_code": "20",
+                "con_id": "20210329036",
+                "con_name": "蒙哲臘",
+                "index": 30
+            },
+            {
+                "con_code": "20",
+                "con_id": "20210329037",
+                "con_name": "尼加拉瓜",
+                "index": 31
+            },
+            {
+                "con_code": "20",
+                "con_id": "20210329038",
+                "con_name": "波多黎各",
+                "index": 32
+            },
+            {
+                "con_code": "20",
+                "con_id": "20210329039",
+                "con_name": "荷屬聖馬丁",
+                "index": 33
+            },
+            {
+                "con_code": "20",
+                "con_id": "20210329040",
+                "con_name": "蘇利南",
+                "index": 34
+            },
+            {
+                "con_code": "20",
+                "con_id": "20210408162314680",
+                "con_name": "英屬維京群島",
+                "index": 35
+            },
+            {
+                "con_code": "20",
+                "con_id": "20210426114603260",
+                "con_name": "聖克里斯多福及尼維斯",
+                "index": 36
+            },
+            {
+                "con_code": "20",
+                "con_id": "20210426114603579",
+                "con_name": "聖皮挨爾和密克隆群島",
+                "index": 37
+            },
+            {
+                "con_code": "20",
+                "con_id": "20210330009",
+                "con_name": "英屬土克凱可群島",
+                "index": 38
+            },
+            {
+                "con_code": "20",
+                "con_id": "20210330005",
+                "con_name": "英屬開曼群島",
+                "index": 39
+            },
+            {
+                "con_code": "20",
+                "con_id": "20210330006",
+                "con_name": "多明尼加",
+                "index": 40
+            },
+            {
+                "con_code": "20",
+                "con_id": "20210330008",
+                "con_name": "聖文森島國",
+                "index": 41
+            },
+            {
+                "con_code": "20",
+                "con_id": "20210330018",
+                "con_name": "格瑞那達",
+                "index": 42
+            },
+            {
+                "con_code": "20",
+                "con_id": "20210330019",
+                "con_name": "烏拉圭",
+                "index": 43
+            },
+            {
+                "con_code": "20",
+                "con_id": "20210330082",
+                "con_name": "安地卡及巴布達",
+                "index": 44
+            },
+            {
+                "con_code": "10",
+                "con_id": "1170237392758",
+                "con_name": "日本",
+                "index": 1
+            },
+            {
+                "con_code": "10",
+                "con_id": "1170237392701",
+                "con_name": "中國",
+                "index": 2
+            },
+            {
+                "con_code": "10",
+                "con_id": "1170237392734",
+                "con_name": "香港",
+                "index": 3
+            },
+            {
+                "con_code": "10",
+                "con_id": "1170237392834",
+                "con_name": "新加坡",
+                "index": 4
+            },
+            {
+                "con_code": "10",
+                "con_id": "1170237392784",
+                "con_name": "馬來西亞",
+                "index": 5
+            },
+            {
+                "con_code": "10",
+                "con_id": "20210330011",
+                "con_name": "南韓",
+                "index": 6
+            },
+            {
+                "con_code": "10",
+                "con_id": "1170237392782",
+                "con_name": "澳門",
+                "index": 7
+            },
+            {
+                "con_code": "10",
+                "con_id": "1170237392883",
+                "con_name": "越南",
+                "index": 8
+            },
+            {
+                "con_code": "10",
+                "con_id": "1170237392856",
+                "con_name": "泰國",
+                "index": 9
+            },
+            {
+                "con_code": "10",
+                "con_id": "1170237392861",
+                "con_name": "土耳其",
+                "index": 10
+            },
+            {
+                "con_code": "10",
+                "con_id": "1170237392744",
+                "con_name": "印尼",
+                "index": 11
+            },
+            {
+                "con_code": "10",
+                "con_id": "1170237392863",
+                "con_name": "阿拉伯聯合大公國",
+                "index": 12
+            },
+            {
+                "con_code": "10",
+                "con_id": "1170237392818",
+                "con_name": "菲律賓",
+                "index": 13
+            },
+            {
+                "con_code": "10",
+                "con_id": "1170237392693",
+                "con_name": "柬埔寨",
+                "index": 14
+            },
+            {
+                "con_code": "10",
+                "con_id": "1170237392742",
+                "con_name": "印度",
+                "index": 15
+            },
+            {
+                "con_code": "10",
+                "con_id": "1170237392748",
+                "con_name": "以色列",
+                "index": 16
+            },
+            {
+                "con_code": "10",
+                "con_id": "1170237392844",
+                "con_name": "斯里蘭卡",
+                "index": 17
+            },
+            {
+                "con_code": "10",
+                "con_id": "1186567254712",
+                "con_name": "尼泊爾",
+                "index": 18
+            },
+            {
+                "con_code": "10",
+                "con_id": "1170237392796",
+                "con_name": "蒙古",
+                "index": 19
+            },
+            {
+                "con_code": "10",
+                "con_id": "1170237392770",
+                "con_name": "寮國",
+                "index": 20
+            },
+            {
+                "con_code": "10",
+                "con_id": "1237286915671",
+                "con_name": "巴勒斯坦",
+                "index": 21
+            },
+            {
+                "con_code": "10",
+                "con_id": "1277457272905",
+                "con_name": "伊朗",
+                "index": 22
+            },
+            {
+                "con_code": "10",
+                "con_id": "1170237392824",
+                "con_name": "卡達",
+                "index": 23
+            },
+            {
+                "con_code": "10",
+                "con_id": "1186567254703",
+                "con_name": "不丹",
+                "index": 24
+            },
+            {
+                "con_code": "10",
+                "con_id": "20210331014",
+                "con_name": "沙烏地阿拉伯",
+                "index": 25
+            },
+            {
+                "con_code": "10",
+                "con_id": "1170237392760",
+                "con_name": "約旦",
+                "index": 26
+            },
+            {
+                "con_code": "10",
+                "con_id": "1170237392687",
+                "con_name": "汶萊",
+                "index": 27
+            },
+            {
+                "con_code": "10",
+                "con_id": "1170237392766",
+                "con_name": "科威特",
+                "index": 28
+            },
+            {
+                "con_code": "10",
+                "con_id": "1170237392812",
+                "con_name": "巴基斯坦",
+                "index": 29
+            },
+            {
+                "con_code": "10",
+                "con_id": "1170237392810",
+                "con_name": "阿曼",
+                "index": 30
+            },
+            {
+                "con_code": "10",
+                "con_id": "1170237392724",
+                "con_name": "喬治亞",
+                "index": 31
+            },
+            {
+                "con_code": "10",
+                "con_id": "1170237392673",
+                "con_name": "巴林",
+                "index": 32
+            },
+            {
+                "con_code": "10",
+                "con_id": "1170237392671",
+                "con_name": "亞塞拜然",
+                "index": 33
+            },
+            {
+                "con_code": "10",
+                "con_id": "1170237392662",
+                "con_name": "阿富汗",
+                "index": 34
+            },
+            {
+                "con_code": "10",
+                "con_id": "1170237392878",
+                "con_name": "烏茲別克",
+                "index": 35
+            },
+            {
+                "con_code": "10",
+                "con_id": "1269398925650",
+                "con_name": "伊拉克",
+                "index": 36
+            },
+            {
+                "con_code": "10",
+                "con_id": "1236670010204",
+                "con_name": "葉門",
+                "index": 37
+            },
+            {
+                "con_code": "10",
+                "con_id": "20210331010",
+                "con_name": "吉爾吉斯共和國",
+                "index": 38
+            },
+            {
+                "con_code": "10",
+                "con_id": "20210331006",
+                "con_name": "塔吉克",
+                "index": 39
+            },
+            {
+                "con_code": "10",
+                "con_id": "20210331004",
+                "con_name": "黎巴嫩",
+                "index": 40
+            },
+            {
+                "con_code": "10",
+                "con_id": "20210331012",
+                "con_name": "東帝汶",
+                "index": 41
+            },
+            {
+                "con_code": "10",
+                "con_id": "20210329043",
+                "con_name": "哈薩克共和國",
+                "index": 42
+            },
+            {
+                "con_code": "10",
+                "con_id": "20210329044",
+                "con_name": "緬甸",
+                "index": 43
+            },
+            {
+                "con_code": "10",
+                "con_id": "20210330010",
+                "con_name": "孟加拉",
+                "index": 44
+            },
+            {
+                "con_code": "10",
+                "con_id": "20210330021",
+                "con_name": "亞美尼亞",
+                "index": 45
+            },
+            {
+                "con_code": "10",
+                "con_id": "1170237392854",
+                "con_name": "敘利亞",
+                "index": 46
+            }
+        ],
+        "ret_code": "0"
+    }
+} (api_utlis.py:25)
+16:05:27 [    INFO] [Json 內容比對失敗], expected: {'con_name': '澳洲', 'con_id': '1170237392667', 'index': 1, 'con_code': '50'}, actual: {'con_name': '澳洲', 'con_id': '1170237392667', 'index': 1, 'con_code': '50'} (object_utils.py:7)
+16:05:27 [    INFO] [Json 內容比對失敗], expected: {'con_name': '關島', 'con_id': '1170237392732', 'index': 2, 'con_code': '50'}, actual: {'con_name': '關島', 'con_id': '1170237392732', 'index': 2, 'con_code': '50'} (object_utils.py:7)
+16:05:27 [    INFO] [Json 內容比對失敗], expected: {'con_name': '紐西蘭', 'con_id': '1170237392804', 'index': 3, 'con_code': '50'}, actual: {'con_name': '紐西蘭', 'con_id': '1170237392804', 'index': 3, 'con_code': '50'} (object_utils.py:7)
+16:05:27 [    INFO] [Json 內容比對失敗], expected: {'con_name': '馬爾地夫', 'con_id': '20210331007', 'index': 4, 'con_code': '50'}, actual: {'con_name': '馬爾地夫', 'con_id': '20210331007', 'index': 4, 'con_code': '50'} (object_utils.py:7)
+16:05:27 [    INFO] [Json 內容比對失敗], expected: {'con_name': '索羅門群島', 'con_id': '20210331001', 'index': 5, 'con_code': '50'}, actual: {'con_name': '索羅門群島', 'con_id': '20210331001', 'index': 5, 'con_code': '50'} (object_utils.py:7)
+16:05:27 [    INFO] [Json 內容比對失敗], expected: {'con_name': '薩摩亞', 'con_id': '20210331015', 'index': 6, 'con_code': '50'}, actual: {'con_name': '薩摩亞', 'con_id': '20210331015', 'index': 6, 'con_code': '50'} (object_utils.py:7)
+16:05:27 [    INFO] [Json 內容比對失敗], expected: {'con_name': '多哥', 'con_id': '20210331017', 'index': 7, 'con_code': '50'}, actual: {'con_name': '多哥', 'con_id': '20210331017', 'index': 7, 'con_code': '50'} (object_utils.py:7)
+16:05:27 [    INFO] [Json 內容比對失敗], expected: {'con_name': '巴布亞紐幾內亞', 'con_id': '20210331011', 'index': 8, 'con_code': '50'}, actual: {'con_name': '巴布亞紐幾內亞', 'con_id': '20210331011', 'index': 8, 'con_code': '50'} (object_utils.py:7)
+16:05:27 [    INFO] [Json 內容比對失敗], expected: {'con_name': '東加', 'con_id': '20210331008', 'index': 9, 'con_code': '50'}, actual: {'con_name': '東加', 'con_id': '20210331008', 'index': 9, 'con_code': '50'} (object_utils.py:7)
+16:05:27 [    INFO] [Json 內容比對失敗], expected: {'con_name': '法屬新喀里多尼亞', 'con_id': '20210329059', 'index': 10, 'con_code': '50'}, actual: {'con_name': '法屬新喀里多尼亞', 'con_id': '20210329059', 'index': 10, 'con_code': '50'} (object_utils.py:7)
+16:05:27 [    INFO] [Json 內容比對失敗], expected: {'con_name': '密克羅尼西亞', 'con_id': '20210329058', 'index': 11, 'con_code': '50'}, actual: {'con_name': '密克羅尼西亞', 'con_id': '20210329058', 'index': 11, 'con_code': '50'} (object_utils.py:7)
+16:05:27 [    INFO] [Json 內容比對失敗], expected: {'con_name': '法屬玻里尼西亞', 'con_id': '20210329056', 'index': 12, 'con_code': '50'}, actual: {'con_name': '法屬玻里尼西亞', 'con_id': '20210329056', 'index': 12, 'con_code': '50'} (object_utils.py:7)
+16:05:27 [    INFO] [Json 內容比對失敗], expected: {'con_name': '斐濟', 'con_id': '20210329055', 'index': 13, 'con_code': '50'}, actual: {'con_name': '斐濟', 'con_id': '20210329055', 'index': 13, 'con_code': '50'} (object_utils.py:7)
+16:05:27 [    INFO] [Json 內容比對失敗], expected: {'con_name': '庫克群島', 'con_id': '20210329054', 'index': 14, 'con_code': '50'}, actual: {'con_name': '庫克群島', 'con_id': '20210329054', 'index': 14, 'con_code': '50'} (object_utils.py:7)
+16:05:27 [    INFO] [Json 內容比對失敗], expected: {'con_name': '吉里巴斯共和國', 'con_id': '20210329001', 'index': 15, 'con_code': '50'}, actual: {'con_name': '吉里巴斯共和國', 'con_id': '20210329001', 'index': 15, 'con_code': '50'} (object_utils.py:7)
+16:05:27 [    INFO] [Json 內容比對失敗], expected: {'con_name': '萬那度', 'con_id': '20210329062', 'index': 16, 'con_code': '50'}, actual: {'con_name': '萬那度', 'con_id': '20210329062', 'index': 16, 'con_code': '50'} (object_utils.py:7)
+16:05:27 [    INFO] [Json 內容比對失敗], expected: {'con_name': '帛琉', 'con_id': '1170237392826', 'index': 17, 'con_code': '50'}, actual: {'con_name': '帛琉', 'con_id': '1170237392826', 'index': 17, 'con_code': '50'} (object_utils.py:7)
+16:05:27 [    INFO] END (test_api_QueryCountries.py:50)
+16:05:27 [    INFO] Request method: get (api_utlis.py:11)
+16:05:27 [    INFO] Request URL: http://csappstage.catch.net.tw/cs/API/queryCountries (api_utlis.py:12)
+16:05:27 [    INFO] Request Cookies: <RequestsCookieJar[]> (api_utlis.py:13)
+16:05:27 [    INFO] Request headers: {'User-Agent': 'python-requests/2.32.3', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'} (api_utlis.py:14)
+16:05:27 [    INFO] Request Json body: null (api_utlis.py:17)
+16:05:27 [    INFO] Response headers: {'X-Frame-Options': 'SAMEORIGIN', 'X-XSS-Protection': '1; mode=block', 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'X-Content-Type-Options': 'nosniff', 'Content-Type': 'text/html;charset=UTF-8', 'Date': 'Mon, 28 Oct 2024 08:05:27 GMT', 'Server': '', 'Age': '0', 'Connection': 'close', 'Via': '1.1 TWM-WCG-SVR6'} (api_utlis.py:20)
+16:05:27 [    INFO] Response code: 200 (api_utlis.py:21)
+16:05:27 [    INFO] Response: {
+    "cs_app": {
+        "con_list": [
+            {
+                "con_code": "50",
+                "con_id": "1170237392667",
+                "con_name": "澳洲",
+                "index": 1
+            },
+            {
+                "con_code": "50",
+                "con_id": "1170237392732",
+                "con_name": "關島",
+                "index": 2
+            },
+            {
+                "con_code": "50",
+                "con_id": "1170237392804",
+                "con_name": "紐西蘭",
+                "index": 3
+            },
+            {
+                "con_code": "50",
+                "con_id": "20210331007",
+                "con_name": "馬爾地夫",
+                "index": 4
+            },
+            {
+                "con_code": "50",
+                "con_id": "20210331001",
+                "con_name": "索羅門群島",
+                "index": 5
+            },
+            {
+                "con_code": "50",
+                "con_id": "20210331015",
+                "con_name": "薩摩亞",
+                "index": 6
+            },
+            {
+                "con_code": "50",
+                "con_id": "20210331017",
+                "con_name": "多哥",
+                "index": 7
+            },
+            {
+                "con_code": "50",
+                "con_id": "20210331011",
+                "con_name": "巴布亞紐幾內亞",
+                "index": 8
+            },
+            {
+                "con_code": "50",
+                "con_id": "20210331008",
+                "con_name": "東加",
+                "index": 9
+            },
+            {
+                "con_code": "50",
+                "con_id": "20210329059",
+                "con_name": "法屬新喀里多尼亞",
+                "index": 10
+            },
+            {
+                "con_code": "50",
+                "con_id": "20210329058",
+                "con_name": "密克羅尼西亞",
+                "index": 11
+            },
+            {
+                "con_code": "50",
+                "con_id": "20210329056",
+                "con_name": "法屬玻里尼西亞",
+                "index": 12
+            },
+            {
+                "con_code": "50",
+                "con_id": "20210329055",
+                "con_name": "斐濟",
+                "index": 13
+            },
+            {
+                "con_code": "50",
+                "con_id": "20210329054",
+                "con_name": "庫克群島",
+                "index": 14
+            },
+            {
+                "con_code": "50",
+                "con_id": "20210329001",
+                "con_name": "吉里巴斯共和國",
+                "index": 15
+            },
+            {
+                "con_code": "50",
+                "con_id": "20210329062",
+                "con_name": "萬那度",
+                "index": 16
+            },
+            {
+                "con_code": "50",
+                "con_id": "1170237392826",
+                "con_name": "帛琉",
+                "index": 17
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392719",
+                "con_name": "法國",
+                "index": 1
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392868",
+                "con_name": "英國",
+                "index": 2
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392751",
+                "con_name": "義大利",
+                "index": 3
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392852",
+                "con_name": "瑞士",
+                "index": 4
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392726",
+                "con_name": "德國",
+                "index": 5
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392842",
+                "con_name": "西班牙",
+                "index": 6
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392802",
+                "con_name": "荷蘭",
+                "index": 7
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392707",
+                "con_name": "捷克",
+                "index": 8
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392808",
+                "con_name": "挪威",
+                "index": 9
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392669",
+                "con_name": "奧地利",
+                "index": 10
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392677",
+                "con_name": "比利時",
+                "index": 11
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392703",
+                "con_name": "克羅埃西亞",
+                "index": 12
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392830",
+                "con_name": "俄羅斯",
+                "index": 13
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392730",
+                "con_name": "希臘",
+                "index": 14
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392822",
+                "con_name": "葡萄牙",
+                "index": 15
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392836",
+                "con_name": "斯洛伐克",
+                "index": 16
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392820",
+                "con_name": "波蘭",
+                "index": 17
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392715",
+                "con_name": "愛沙尼亞",
+                "index": 18
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392709",
+                "con_name": "丹麥",
+                "index": 19
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392850",
+                "con_name": "瑞典",
+                "index": 20
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392780",
+                "con_name": "盧森堡",
+                "index": 21
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392746",
+                "con_name": "愛爾蘭",
+                "index": 22
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392738",
+                "con_name": "匈牙利",
+                "index": 23
+            },
+            {
+                "con_code": "40",
+                "con_id": "1225353574045",
+                "con_name": "摩納哥",
+                "index": 24
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392717",
+                "con_name": "芬蘭",
+                "index": 25
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392740",
+                "con_name": "冰島",
+                "index": 26
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392728",
+                "con_name": "直布羅陀",
+                "index": 27
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392663",
+                "con_name": "阿爾巴尼亞",
+                "index": 28
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392788",
+                "con_name": "馬爾他",
+                "index": 29
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392828",
+                "con_name": "羅馬尼亞",
+                "index": 30
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392689",
+                "con_name": "保加利亞",
+                "index": 31
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392778",
+                "con_name": "立陶宛",
+                "index": 32
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392772",
+                "con_name": "拉脫維亞",
+                "index": 33
+            },
+            {
+                "con_code": "40",
+                "con_id": "1199070481302",
+                "con_name": "白俄羅斯",
+                "index": 34
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392870",
+                "con_name": "烏克蘭",
+                "index": 35
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392776",
+                "con_name": "列支敦士登",
+                "index": 36
+            },
+            {
+                "con_code": "40",
+                "con_id": "20210331016",
+                "con_name": "柯索沃",
+                "index": 37
+            },
+            {
+                "con_code": "40",
+                "con_id": "20210331005",
+                "con_name": "納哥諾卡拉巴克共和國",
+                "index": 38
+            },
+            {
+                "con_code": "40",
+                "con_id": "20210330016",
+                "con_name": "斯洛維尼亞",
+                "index": 39
+            },
+            {
+                "con_code": "40",
+                "con_id": "20210330015",
+                "con_name": "摩爾多瓦",
+                "index": 40
+            },
+            {
+                "con_code": "40",
+                "con_id": "20210330014",
+                "con_name": "賽普勒斯",
+                "index": 41
+            },
+            {
+                "con_code": "40",
+                "con_id": "20210330013",
+                "con_name": "波士尼亞 & 赫塞哥維納",
+                "index": 42
+            },
+            {
+                "con_code": "40",
+                "con_id": "20210329052",
+                "con_name": "塞爾維亞",
+                "index": 43
+            },
+            {
+                "con_code": "40",
+                "con_id": "20210329050",
+                "con_name": "蒙特內哥羅",
+                "index": 44
+            },
+            {
+                "con_code": "40",
+                "con_id": "20210329049",
+                "con_name": "馬其頓",
+                "index": 45
+            },
+            {
+                "con_code": "40",
+                "con_id": "20210329047",
+                "con_name": "英屬根西島",
+                "index": 46
+            },
+            {
+                "con_code": "40",
+                "con_id": "11701231241412",
+                "con_name": "挪威航空",
+                "index": 47
+            },
+            {
+                "con_code": "40",
+                "con_id": "20210408162314278",
+                "con_name": "澤西島",
+                "index": 48
+            },
+            {
+                "con_code": "30",
+                "con_id": "1170237392711",
+                "con_name": "埃及",
+                "index": 1
+            },
+            {
+                "con_code": "30",
+                "con_id": "1170237392799",
+                "con_name": "摩洛哥",
+                "index": 2
+            },
+            {
+                "con_code": "30",
+                "con_id": "1170237392840",
+                "con_name": "南非",
+                "index": 3
+            },
+            {
+                "con_code": "30",
+                "con_id": "1170237392762",
+                "con_name": "肯亞",
+                "index": 4
+            },
+            {
+                "con_code": "30",
+                "con_id": "1170237392859",
+                "con_name": "突尼西亞",
+                "index": 5
+            },
+            {
+                "con_code": "30",
+                "con_id": "1203591091080",
+                "con_name": "奈及利亞",
+                "index": 6
+            },
+            {
+                "con_code": "30",
+                "con_id": "1170237392865",
+                "con_name": "烏干達",
+                "index": 7
+            },
+            {
+                "con_code": "30",
+                "con_id": "1170237392885",
+                "con_name": "辛巴威",
+                "index": 8
+            },
+            {
+                "con_code": "30",
+                "con_id": "1170237392753",
+                "con_name": "象牙海岸",
+                "index": 9
+            },
+            {
+                "con_code": "30",
+                "con_id": "1223878662767",
+                "con_name": "塞內加爾",
+                "index": 10
+            },
+            {
+                "con_code": "30",
+                "con_id": "1269913404144",
+                "con_name": "剛果",
+                "index": 11
+            },
+            {
+                "con_code": "30",
+                "con_id": "1170237392721",
+                "con_name": "甘比亞",
+                "index": 12
+            },
+            {
+                "con_code": "30",
+                "con_id": "1170237392847",
+                "con_name": "蘇丹",
+                "index": 13
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210331013",
+                "con_name": "維德角",
+                "index": 14
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210331002",
+                "con_name": "貝南",
+                "index": 15
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210408162314195",
+                "con_name": "喀麥隆",
+                "index": 16
+            },
+            {
+                "con_code": "30",
+                "con_id": "1244100944057",
+                "con_name": "馬拉威",
+                "index": 17
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210426114603727",
+                "con_name": "尚比亞",
+                "index": 18
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210329002",
+                "con_name": "幾內亞比紹",
+                "index": 19
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210329003",
+                "con_name": "波扎那",
+                "index": 20
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210329004",
+                "con_name": "布及納法索",
+                "index": 21
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210329005",
+                "con_name": "蒲隆地",
+                "index": 22
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210329006",
+                "con_name": "中非共和國",
+                "index": 23
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210329007",
+                "con_name": "查德",
+                "index": 24
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210329008",
+                "con_name": "剛果民主共和國",
+                "index": 25
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210329009",
+                "con_name": "赤道幾內亞",
+                "index": 26
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210329010",
+                "con_name": "加彭",
+                "index": 27
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210329011",
+                "con_name": "迦納",
+                "index": 28
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210329012",
+                "con_name": "幾內亞",
+                "index": 29
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210329013",
+                "con_name": "賴索托",
+                "index": 30
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210329014",
+                "con_name": "賴比瑞亞",
+                "index": 31
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210329015",
+                "con_name": "馬達加斯加",
+                "index": 32
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210329016",
+                "con_name": "馬利",
+                "index": 33
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210329017",
+                "con_name": "茅利塔尼亞",
+                "index": 34
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210329018",
+                "con_name": "莫三比克",
+                "index": 35
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210329020",
+                "con_name": "納米比亞",
+                "index": 36
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210329021",
+                "con_name": "尼日",
+                "index": 37
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210329022",
+                "con_name": "法屬留尼旺島",
+                "index": 38
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210329023",
+                "con_name": "盧安達",
+                "index": 39
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210329024",
+                "con_name": "聖多美普林西比",
+                "index": 40
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210329025",
+                "con_name": "塞席爾",
+                "index": 41
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210329027",
+                "con_name": "南蘇丹",
+                "index": 42
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210330001",
+                "con_name": "阿爾及利亞",
+                "index": 43
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210330002",
+                "con_name": "模里西斯",
+                "index": 44
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210330003",
+                "con_name": "史瓦帝尼",
+                "index": 45
+            },
+            {
+                "con_code": "30",
+                "con_id": "20210330004",
+                "con_name": "坦尚尼亞",
+                "index": 46
+            },
+            {
+                "con_code": "20",
+                "con_id": "1170237392875",
+                "con_name": "美國",
+                "index": 1
+            },
+            {
+                "con_code": "20",
+                "con_id": "1170237392697",
+                "con_name": "加拿大",
+                "index": 2
+            },
+            {
+                "con_code": "20",
+                "con_id": "1170237392816",
+                "con_name": "秘魯",
+                "index": 3
+            },
+            {
+                "con_code": "20",
+                "con_id": "1170237392792",
+                "con_name": "墨西哥",
+                "index": 4
+            },
+            {
+                "con_code": "20",
+                "con_id": "1170237392699",
+                "con_name": "智利",
+                "index": 5
+            },
+            {
+                "con_code": "20",
+                "con_id": "1170237392691",
+                "con_name": "巴拿馬",
+                "index": 6
+            },
+            {
+                "con_code": "20",
+                "con_id": "1170237392665",
+                "con_name": "阿根廷",
+                "index": 7
+            },
+            {
+                "con_code": "20",
+                "con_id": "1170237392685",
+                "con_name": "巴西",
+                "index": 8
+            },
+            {
+                "con_code": "20",
+                "con_id": "20110324192918833221",
+                "con_name": "哥倫比亞",
+                "index": 9
+            },
+            {
+                "con_code": "20",
+                "con_id": "1273545088068",
+                "con_name": "瓜地馬拉",
+                "index": 10
+            },
+            {
+                "con_code": "20",
+                "con_id": "1274432225155",
+                "con_name": "哥斯大黎加",
+                "index": 11
+            },
+            {
+                "con_code": "20",
+                "con_id": "1170237392814",
+                "con_name": "巴拉圭",
+                "index": 12
+            },
+            {
+                "con_code": "20",
+                "con_id": "1170237392681",
+                "con_name": "貝里斯",
+                "index": 13
+            },
+            {
+                "con_code": "20",
+                "con_id": "1170237392756",
+                "con_name": "牙買加",
+                "index": 14
+            },
+            {
+                "con_code": "20",
+                "con_id": "20210331003",
+                "con_name": "玻利維亞",
+                "index": 15
+            },
+            {
+                "con_code": "20",
+                "con_id": "20210331018",
+                "con_name": "海地",
+                "index": 16
+            },
+            {
+                "con_code": "20",
+                "con_id": "20210331009",
+                "con_name": "英屬安圭拉島",
+                "index": 17
+            },
+            {
+                "con_code": "20",
+                "con_id": "20210330084",
+                "con_name": "聖露西亞",
+                "index": 18
+            },
+            {
+                "con_code": "20",
+                "con_id": "20210408162314331",
+                "con_name": "宏都拉斯",
+                "index": 19
+            },
+            {
+                "con_code": "20",
+                "con_id": "20210408162314587",
+                "con_name": "薩爾瓦多",
+                "index": 20
+            },
+            {
+                "con_code": "20",
+                "con_id": "20210426114603659",
+                "con_name": "千里達及托巴哥共和國",
+                "index": 21
+            },
+            {
+                "con_code": "20",
+                "con_id": "20210330081",
+                "con_name": "多米尼克",
+                "index": 22
+            },
+            {
+                "con_code": "20",
+                "con_id": "20210329029",
+                "con_name": "巴哈馬",
+                "index": 23
+            },
+            {
+                "con_code": "20",
+                "con_id": "20210329030",
+                "con_name": "巴貝多",
+                "index": 24
+            },
+            {
+                "con_code": "20",
+                "con_id": "20210329031",
+                "con_name": "古巴",
+                "index": 25
+            },
+            {
+                "con_code": "20",
+                "con_id": "20210329032",
+                "con_name": "古拉索",
+                "index": 26
+            },
+            {
+                "con_code": "20",
+                "con_id": "20210329033",
+                "con_name": "厄瓜多",
+                "index": 27
+            },
+            {
+                "con_code": "20",
+                "con_id": "20210329034",
+                "con_name": "法屬圭亞那",
+                "index": 28
+            },
+            {
+                "con_code": "20",
+                "con_id": "20210329035",
+                "con_name": "蓋亞那",
+                "index": 29
+            },
+            {
+                "con_code": "20",
+                "con_id": "20210329036",
+                "con_name": "蒙哲臘",
+                "index": 30
+            },
+            {
+                "con_code": "20",
+                "con_id": "20210329037",
+                "con_name": "尼加拉瓜",
+                "index": 31
+            },
+            {
+                "con_code": "20",
+                "con_id": "20210329038",
+                "con_name": "波多黎各",
+                "index": 32
+            },
+            {
+                "con_code": "20",
+                "con_id": "20210329039",
+                "con_name": "荷屬聖馬丁",
+                "index": 33
+            },
+            {
+                "con_code": "20",
+                "con_id": "20210329040",
+                "con_name": "蘇利南",
+                "index": 34
+            },
+            {
+                "con_code": "20",
+                "con_id": "20210408162314680",
+                "con_name": "英屬維京群島",
+                "index": 35
+            },
+            {
+                "con_code": "20",
+                "con_id": "20210426114603260",
+                "con_name": "聖克里斯多福及尼維斯",
+                "index": 36
+            },
+            {
+                "con_code": "20",
+                "con_id": "20210426114603579",
+                "con_name": "聖皮挨爾和密克隆群島",
+                "index": 37
+            },
+            {
+                "con_code": "20",
+                "con_id": "20210330009",
+                "con_name": "英屬土克凱可群島",
+                "index": 38
+            },
+            {
+                "con_code": "20",
+                "con_id": "20210330005",
+                "con_name": "英屬開曼群島",
+                "index": 39
+            },
+            {
+                "con_code": "20",
+                "con_id": "20210330006",
+                "con_name": "多明尼加",
+                "index": 40
+            },
+            {
+                "con_code": "20",
+                "con_id": "20210330008",
+                "con_name": "聖文森島國",
+                "index": 41
+            },
+            {
+                "con_code": "20",
+                "con_id": "20210330018",
+                "con_name": "格瑞那達",
+                "index": 42
+            },
+            {
+                "con_code": "20",
+                "con_id": "20210330019",
+                "con_name": "烏拉圭",
+                "index": 43
+            },
+            {
+                "con_code": "20",
+                "con_id": "20210330082",
+                "con_name": "安地卡及巴布達",
+                "index": 44
+            },
+            {
+                "con_code": "10",
+                "con_id": "1170237392758",
+                "con_name": "日本",
+                "index": 1
+            },
+            {
+                "con_code": "10",
+                "con_id": "1170237392701",
+                "con_name": "中國",
+                "index": 2
+            },
+            {
+                "con_code": "10",
+                "con_id": "1170237392734",
+                "con_name": "香港",
+                "index": 3
+            },
+            {
+                "con_code": "10",
+                "con_id": "1170237392834",
+                "con_name": "新加坡",
+                "index": 4
+            },
+            {
+                "con_code": "10",
+                "con_id": "1170237392784",
+                "con_name": "馬來西亞",
+                "index": 5
+            },
+            {
+                "con_code": "10",
+                "con_id": "20210330011",
+                "con_name": "南韓",
+                "index": 6
+            },
+            {
+                "con_code": "10",
+                "con_id": "1170237392782",
+                "con_name": "澳門",
+                "index": 7
+            },
+            {
+                "con_code": "10",
+                "con_id": "1170237392883",
+                "con_name": "越南",
+                "index": 8
+            },
+            {
+                "con_code": "10",
+                "con_id": "1170237392856",
+                "con_name": "泰國",
+                "index": 9
+            },
+            {
+                "con_code": "10",
+                "con_id": "1170237392861",
+                "con_name": "土耳其",
+                "index": 10
+            },
+            {
+                "con_code": "10",
+                "con_id": "1170237392744",
+                "con_name": "印尼",
+                "index": 11
+            },
+            {
+                "con_code": "10",
+                "con_id": "1170237392863",
+                "con_name": "阿拉伯聯合大公國",
+                "index": 12
+            },
+            {
+                "con_code": "10",
+                "con_id": "1170237392818",
+                "con_name": "菲律賓",
+                "index": 13
+            },
+            {
+                "con_code": "10",
+                "con_id": "1170237392693",
+                "con_name": "柬埔寨",
+                "index": 14
+            },
+            {
+                "con_code": "10",
+                "con_id": "1170237392742",
+                "con_name": "印度",
+                "index": 15
+            },
+            {
+                "con_code": "10",
+                "con_id": "1170237392748",
+                "con_name": "以色列",
+                "index": 16
+            },
+            {
+                "con_code": "10",
+                "con_id": "1170237392844",
+                "con_name": "斯里蘭卡",
+                "index": 17
+            },
+            {
+                "con_code": "10",
+                "con_id": "1186567254712",
+                "con_name": "尼泊爾",
+                "index": 18
+            },
+            {
+                "con_code": "10",
+                "con_id": "1170237392796",
+                "con_name": "蒙古",
+                "index": 19
+            },
+            {
+                "con_code": "10",
+                "con_id": "1170237392770",
+                "con_name": "寮國",
+                "index": 20
+            },
+            {
+                "con_code": "10",
+                "con_id": "1237286915671",
+                "con_name": "巴勒斯坦",
+                "index": 21
+            },
+            {
+                "con_code": "10",
+                "con_id": "1277457272905",
+                "con_name": "伊朗",
+                "index": 22
+            },
+            {
+                "con_code": "10",
+                "con_id": "1170237392824",
+                "con_name": "卡達",
+                "index": 23
+            },
+            {
+                "con_code": "10",
+                "con_id": "1186567254703",
+                "con_name": "不丹",
+                "index": 24
+            },
+            {
+                "con_code": "10",
+                "con_id": "20210331014",
+                "con_name": "沙烏地阿拉伯",
+                "index": 25
+            },
+            {
+                "con_code": "10",
+                "con_id": "1170237392760",
+                "con_name": "約旦",
+                "index": 26
+            },
+            {
+                "con_code": "10",
+                "con_id": "1170237392687",
+                "con_name": "汶萊",
+                "index": 27
+            },
+            {
+                "con_code": "10",
+                "con_id": "1170237392766",
+                "con_name": "科威特",
+                "index": 28
+            },
+            {
+                "con_code": "10",
+                "con_id": "1170237392812",
+                "con_name": "巴基斯坦",
+                "index": 29
+            },
+            {
+                "con_code": "10",
+                "con_id": "1170237392810",
+                "con_name": "阿曼",
+                "index": 30
+            },
+            {
+                "con_code": "10",
+                "con_id": "1170237392724",
+                "con_name": "喬治亞",
+                "index": 31
+            },
+            {
+                "con_code": "10",
+                "con_id": "1170237392673",
+                "con_name": "巴林",
+                "index": 32
+            },
+            {
+                "con_code": "10",
+                "con_id": "1170237392671",
+                "con_name": "亞塞拜然",
+                "index": 33
+            },
+            {
+                "con_code": "10",
+                "con_id": "1170237392662",
+                "con_name": "阿富汗",
+                "index": 34
+            },
+            {
+                "con_code": "10",
+                "con_id": "1170237392878",
+                "con_name": "烏茲別克",
+                "index": 35
+            },
+            {
+                "con_code": "10",
+                "con_id": "1269398925650",
+                "con_name": "伊拉克",
+                "index": 36
+            },
+            {
+                "con_code": "10",
+                "con_id": "1236670010204",
+                "con_name": "葉門",
+                "index": 37
+            },
+            {
+                "con_code": "10",
+                "con_id": "20210331010",
+                "con_name": "吉爾吉斯共和國",
+                "index": 38
+            },
+            {
+                "con_code": "10",
+                "con_id": "20210331006",
+                "con_name": "塔吉克",
+                "index": 39
+            },
+            {
+                "con_code": "10",
+                "con_id": "20210331004",
+                "con_name": "黎巴嫩",
+                "index": 40
+            },
+            {
+                "con_code": "10",
+                "con_id": "20210331012",
+                "con_name": "東帝汶",
+                "index": 41
+            },
+            {
+                "con_code": "10",
+                "con_id": "20210329043",
+                "con_name": "哈薩克共和國",
+                "index": 42
+            },
+            {
+                "con_code": "10",
+                "con_id": "20210329044",
+                "con_name": "緬甸",
+                "index": 43
+            },
+            {
+                "con_code": "10",
+                "con_id": "20210330010",
+                "con_name": "孟加拉",
+                "index": 44
+            },
+            {
+                "con_code": "10",
+                "con_id": "20210330021",
+                "con_name": "亞美尼亞",
+                "index": 45
+            },
+            {
+                "con_code": "10",
+                "con_id": "1170237392854",
+                "con_name": "敘利亞",
+                "index": 46
+            }
+        ],
+        "ret_code": "0"
+    }
+} (api_utlis.py:25)
+16:05:27 [    INFO] [Json 內容比對失敗], expected: {'con_name': '澳洲', 'con_id': '1170237392667', 'index': 1, 'con_code': '50'}, actual: {'con_name': '澳洲', 'con_id': '1170237392667', 'index': 1, 'con_code': '50'} (object_utils.py:7)
+16:05:27 [    INFO] [Json 內容比對失敗], expected: {'con_name': '關島', 'con_id': '1170237392732', 'index': 2, 'con_code': '50'}, actual: {'con_name': '關島', 'con_id': '1170237392732', 'index': 2, 'con_code': '50'} (object_utils.py:7)
+16:05:27 [    INFO] [Json 內容比對失敗], expected: {'con_name': '紐西蘭', 'con_id': '1170237392804', 'index': 3, 'con_code': '50'}, actual: {'con_name': '紐西蘭', 'con_id': '1170237392804', 'index': 3, 'con_code': '50'} (object_utils.py:7)
+16:05:27 [    INFO] [Json 內容比對失敗], expected: {'con_name': '馬爾地夫', 'con_id': '20210331007', 'index': 4, 'con_code': '50'}, actual: {'con_name': '馬爾地夫', 'con_id': '20210331007', 'index': 4, 'con_code': '50'} (object_utils.py:7)
+16:05:27 [    INFO] [Json 內容比對失敗], expected: {'con_name': '索羅門群島', 'con_id': '20210331001', 'index': 5, 'con_code': '50'}, actual: {'con_name': '索羅門群島', 'con_id': '20210331001', 'index': 5, 'con_code': '50'} (object_utils.py:7)
+16:05:27 [    INFO] [Json 內容比對失敗], expected: {'con_name': '薩摩亞', 'con_id': '20210331015', 'index': 6, 'con_code': '50'}, actual: {'con_name': '薩摩亞', 'con_id': '20210331015', 'index': 6, 'con_code': '50'} (object_utils.py:7)
+16:05:27 [    INFO] [Json 內容比對失敗], expected: {'con_name': '多哥', 'con_id': '20210331017', 'index': 7, 'con_code': '50'}, actual: {'con_name': '多哥', 'con_id': '20210331017', 'index': 7, 'con_code': '50'} (object_utils.py:7)
+16:05:27 [    INFO] [Json 內容比對失敗], expected: {'con_name': '巴布亞紐幾內亞', 'con_id': '20210331011', 'index': 8, 'con_code': '50'}, actual: {'con_name': '巴布亞紐幾內亞', 'con_id': '20210331011', 'index': 8, 'con_code': '50'} (object_utils.py:7)
+16:05:27 [    INFO] [Json 內容比對失敗], expected: {'con_name': '東加', 'con_id': '20210331008', 'index': 9, 'con_code': '50'}, actual: {'con_name': '東加', 'con_id': '20210331008', 'index': 9, 'con_code': '50'} (object_utils.py:7)
+16:05:27 [    INFO] [Json 內容比對失敗], expected: {'con_name': '法屬新喀里多尼亞', 'con_id': '20210329059', 'index': 10, 'con_code': '50'}, actual: {'con_name': '法屬新喀里多尼亞', 'con_id': '20210329059', 'index': 10, 'con_code': '50'} (object_utils.py:7)
+16:05:27 [    INFO] [Json 內容比對失敗], expected: {'con_name': '密克羅尼西亞', 'con_id': '20210329058', 'index': 11, 'con_code': '50'}, actual: {'con_name': '密克羅尼西亞', 'con_id': '20210329058', 'index': 11, 'con_code': '50'} (object_utils.py:7)
+16:05:27 [    INFO] [Json 內容比對失敗], expected: {'con_name': '法屬玻里尼西亞', 'con_id': '20210329056', 'index': 12, 'con_code': '50'}, actual: {'con_name': '法屬玻里尼西亞', 'con_id': '20210329056', 'index': 12, 'con_code': '50'} (object_utils.py:7)
+16:05:27 [    INFO] [Json 內容比對失敗], expected: {'con_name': '斐濟', 'con_id': '20210329055', 'index': 13, 'con_code': '50'}, actual: {'con_name': '斐濟', 'con_id': '20210329055', 'index': 13, 'con_code': '50'} (object_utils.py:7)
+16:05:27 [    INFO] [Json 內容比對失敗], expected: {'con_name': '庫克群島', 'con_id': '20210329054', 'index': 14, 'con_code': '50'}, actual: {'con_name': '庫克群島', 'con_id': '20210329054', 'index': 14, 'con_code': '50'} (object_utils.py:7)
+16:05:27 [    INFO] [Json 內容比對失敗], expected: {'con_name': '吉里巴斯共和國', 'con_id': '20210329001', 'index': 15, 'con_code': '50'}, actual: {'con_name': '吉里巴斯共和國', 'con_id': '20210329001', 'index': 15, 'con_code': '50'} (object_utils.py:7)
+16:05:27 [    INFO] [Json 內容比對失敗], expected: {'con_name': '萬那度', 'con_id': '20210329062', 'index': 16, 'con_code': '50'}, actual: {'con_name': '萬那度', 'con_id': '20210329062', 'index': 16, 'con_code': '50'} (object_utils.py:7)
+16:05:27 [    INFO] [Json 內容比對失敗], expected: {'con_name': '帛琉', 'con_id': '1170237392826', 'index': 17, 'con_code': '50'}, actual: {'con_name': '帛琉', 'con_id': '1170237392826', 'index': 17, 'con_code': '50'} (object_utils.py:7)
+16:05:27 [    INFO] END (test_api_QueryCountries.py:50)
+16:05:27 [    INFO] Request method: get (api_utlis.py:11)
+16:05:27 [    INFO] Request URL: http://csappstage.catch.net.tw/cs/API/queryCountries (api_utlis.py:12)
+16:05:27 [    INFO] Request Cookies: <RequestsCookieJar[]> (api_utlis.py:13)
+16:05:27 [    INFO] Request headers: {'User-Agent': 'python-requests/2.32.3', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'} (api_utlis.py:14)
+16:05:27 [    INFO] Request Json body: null (api_utlis.py:17)
+16:05:28 [    INFO] Response headers: {'X-Frame-Options': 'SAMEORIGIN', 'X-XSS-Protection': '1; mode=block', 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'X-Content-Type-Options': 'nosniff', 'Content-Type': 'text/html;charset=UTF-8', 'Date': 'Mon, 28 Oct 2024 08:05:27 GMT', 'Server': '', 'Content-Length': '1368', 'Age': '2', 'Connection': 'keep-alive', 'Via': '1.1 TWM-WCG-SVR6'} (api_utlis.py:20)
+16:05:28 [    INFO] Response code: 200 (api_utlis.py:21)
+16:05:28 [    INFO] Response: {
+    "cs_app": {
+        "con_list": [
+            {
+                "con_code": "50",
+                "con_id": "1170237392667",
+                "con_name": "澳洲",
+                "index": 1
+            },
+            {
+                "con_code": "50",
+                "con_id": "1170237392732",
+                "con_name": "關島",
+                "index": 2
+            },
+            {
+                "con_code": "50",
+                "con_id": "1170237392804",
+                "con_name": "紐西蘭",
+                "index": 3
+            },
+            {
+                "con_code": "50",
+                "con_id": "20210331007",
+                "con_name": "馬爾地夫",
+                "index": 4
+            },
+            {
+                "con_code": "50",
+                "con_id": "20210331001",
+                "con_name": "索羅門群島",
+                "index": 5
+            },
+            {
+                "con_code": "50",
+                "con_id": "20210331015",
+                "con_name": "薩摩亞",
+                "index": 6
+            },
+            {
+                "con_code": "50",
+                "con_id": "20210331017",
+                "con_name": "多哥",
+                "index": 7
+            },
+            {
+                "con_code": "50",
+                "con_id": "20210331011",
+                "con_name": "巴布亞紐幾內亞",
+                "index": 8
+            },
+            {
+                "con_code": "50",
+                "con_id": "20210331008",
+                "con_name": "東加",
+                "index": 9
+            },
+            {
+                "con_code": "50",
+                "con_id": "20210329059",
+                "con_name": "法屬新喀里多尼亞",
+                "index": 10
+            },
+            {
+                "con_code": "50",
+                "con_id": "20210329058",
+                "con_name": "密克羅尼西亞",
+                "index": 11
+            },
+            {
+                "con_code": "50",
+                "con_id": "20210329056",
+                "con_name": "法屬玻里尼西亞",
+                "index": 12
+            },
+            {
+                "con_code": "50",
+                "con_id": "20210329055",
+                "con_name": "斐濟",
+                "index": 13
+            },
+            {
+                "con_code": "50",
+                "con_id": "20210329054",
+                "con_name": "庫克群島",
+                "index": 14
+            },
+            {
+                "con_code": "50",
+                "con_id": "20210329001",
+                "con_name": "吉里巴斯共和國",
+                "index": 15
+            },
+            {
+                "con_code": "50",
+                "con_id": "20210329062",
+                "con_name": "萬那度",
+                "index": 16
+            },
+            {
+                "con_code": "50",
+                "con_id": "1170237392826",
+                "con_name": "帛琉",
+                "index": 17
+            }
+        ],
+        "ret_code": "0"
+    }
+} (api_utlis.py:25)
+16:05:28 [    INFO] [Json 內容比對失敗], expected: {'con_name': '澳洲', 'con_id': '1170237392667', 'index': 1, 'con_code': '50'}, actual: {'con_name': '澳洲', 'con_id': '1170237392667', 'index': 1, 'con_code': '50'} (object_utils.py:7)
+16:05:28 [    INFO] [Json 內容比對失敗], expected: {'con_name': '關島', 'con_id': '1170237392732', 'index': 2, 'con_code': '50'}, actual: {'con_name': '關島', 'con_id': '1170237392732', 'index': 2, 'con_code': '50'} (object_utils.py:7)
+16:05:28 [    INFO] [Json 內容比對失敗], expected: {'con_name': '紐西蘭', 'con_id': '1170237392804', 'index': 3, 'con_code': '50'}, actual: {'con_name': '紐西蘭', 'con_id': '1170237392804', 'index': 3, 'con_code': '50'} (object_utils.py:7)
+16:05:28 [    INFO] [Json 內容比對失敗], expected: {'con_name': '馬爾地夫', 'con_id': '20210331007', 'index': 4, 'con_code': '50'}, actual: {'con_name': '馬爾地夫', 'con_id': '20210331007', 'index': 4, 'con_code': '50'} (object_utils.py:7)
+16:05:28 [    INFO] [Json 內容比對失敗], expected: {'con_name': '索羅門群島', 'con_id': '20210331001', 'index': 5, 'con_code': '50'}, actual: {'con_name': '索羅門群島', 'con_id': '20210331001', 'index': 5, 'con_code': '50'} (object_utils.py:7)
+16:05:28 [    INFO] [Json 內容比對失敗], expected: {'con_name': '薩摩亞', 'con_id': '20210331015', 'index': 6, 'con_code': '50'}, actual: {'con_name': '薩摩亞', 'con_id': '20210331015', 'index': 6, 'con_code': '50'} (object_utils.py:7)
+16:05:28 [    INFO] [Json 內容比對失敗], expected: {'con_name': '多哥', 'con_id': '20210331017', 'index': 7, 'con_code': '50'}, actual: {'con_name': '多哥', 'con_id': '20210331017', 'index': 7, 'con_code': '50'} (object_utils.py:7)
+16:05:28 [    INFO] [Json 內容比對失敗], expected: {'con_name': '巴布亞紐幾內亞', 'con_id': '20210331011', 'index': 8, 'con_code': '50'}, actual: {'con_name': '巴布亞紐幾內亞', 'con_id': '20210331011', 'index': 8, 'con_code': '50'} (object_utils.py:7)
+16:05:28 [    INFO] [Json 內容比對失敗], expected: {'con_name': '東加', 'con_id': '20210331008', 'index': 9, 'con_code': '50'}, actual: {'con_name': '東加', 'con_id': '20210331008', 'index': 9, 'con_code': '50'} (object_utils.py:7)
+16:05:28 [    INFO] [Json 內容比對失敗], expected: {'con_name': '法屬新喀里多尼亞', 'con_id': '20210329059', 'index': 10, 'con_code': '50'}, actual: {'con_name': '法屬新喀里多尼亞', 'con_id': '20210329059', 'index': 10, 'con_code': '50'} (object_utils.py:7)
+16:05:28 [    INFO] [Json 內容比對失敗], expected: {'con_name': '密克羅尼西亞', 'con_id': '20210329058', 'index': 11, 'con_code': '50'}, actual: {'con_name': '密克羅尼西亞', 'con_id': '20210329058', 'index': 11, 'con_code': '50'} (object_utils.py:7)
+16:05:28 [    INFO] [Json 內容比對失敗], expected: {'con_name': '法屬玻里尼西亞', 'con_id': '20210329056', 'index': 12, 'con_code': '50'}, actual: {'con_name': '法屬玻里尼西亞', 'con_id': '20210329056', 'index': 12, 'con_code': '50'} (object_utils.py:7)
+16:05:28 [    INFO] [Json 內容比對失敗], expected: {'con_name': '斐濟', 'con_id': '20210329055', 'index': 13, 'con_code': '50'}, actual: {'con_name': '斐濟', 'con_id': '20210329055', 'index': 13, 'con_code': '50'} (object_utils.py:7)
+16:05:28 [    INFO] [Json 內容比對失敗], expected: {'con_name': '庫克群島', 'con_id': '20210329054', 'index': 14, 'con_code': '50'}, actual: {'con_name': '庫克群島', 'con_id': '20210329054', 'index': 14, 'con_code': '50'} (object_utils.py:7)
+16:05:28 [    INFO] [Json 內容比對失敗], expected: {'con_name': '吉里巴斯共和國', 'con_id': '20210329001', 'index': 15, 'con_code': '50'}, actual: {'con_name': '吉里巴斯共和國', 'con_id': '20210329001', 'index': 15, 'con_code': '50'} (object_utils.py:7)
+16:05:28 [    INFO] [Json 內容比對失敗], expected: {'con_name': '萬那度', 'con_id': '20210329062', 'index': 16, 'con_code': '50'}, actual: {'con_name': '萬那度', 'con_id': '20210329062', 'index': 16, 'con_code': '50'} (object_utils.py:7)
+16:05:28 [    INFO] [Json 內容比對失敗], expected: {'con_name': '帛琉', 'con_id': '1170237392826', 'index': 17, 'con_code': '50'}, actual: {'con_name': '帛琉', 'con_id': '1170237392826', 'index': 17, 'con_code': '50'} (object_utils.py:7)
+16:05:28 [    INFO] END (test_api_QueryCountries.py:50)
+16:05:28 [    INFO] Request method: get (api_utlis.py:11)
+16:05:28 [    INFO] Request URL: http://csappstage.catch.net.tw/cs/API/queryCountries (api_utlis.py:12)
+16:05:28 [    INFO] Request Cookies: <RequestsCookieJar[]> (api_utlis.py:13)
+16:05:28 [    INFO] Request headers: {'User-Agent': 'python-requests/2.32.3', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'} (api_utlis.py:14)
+16:05:28 [    INFO] Request Json body: null (api_utlis.py:17)
+16:05:28 [    INFO] Response headers: {'X-Frame-Options': 'SAMEORIGIN', 'X-XSS-Protection': '1; mode=block', 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'X-Content-Type-Options': 'nosniff', 'Content-Type': 'text/html;charset=UTF-8', 'Date': 'Mon, 28 Oct 2024 08:05:27 GMT', 'Server': '', 'Content-Length': '3784', 'Age': '1', 'Connection': 'keep-alive', 'Via': '1.1 TWM-WCG-SVR6'} (api_utlis.py:20)
+16:05:28 [    INFO] Response code: 200 (api_utlis.py:21)
+16:05:28 [    INFO] Response: {
+    "cs_app": {
+        "con_list": [
+            {
+                "con_code": "40",
+                "con_id": "1170237392719",
+                "con_name": "法國",
+                "index": 1
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392868",
+                "con_name": "英國",
+                "index": 2
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392751",
+                "con_name": "義大利",
+                "index": 3
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392852",
+                "con_name": "瑞士",
+                "index": 4
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392726",
+                "con_name": "德國",
+                "index": 5
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392842",
+                "con_name": "西班牙",
+                "index": 6
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392802",
+                "con_name": "荷蘭",
+                "index": 7
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392707",
+                "con_name": "捷克",
+                "index": 8
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392808",
+                "con_name": "挪威",
+                "index": 9
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392669",
+                "con_name": "奧地利",
+                "index": 10
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392677",
+                "con_name": "比利時",
+                "index": 11
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392703",
+                "con_name": "克羅埃西亞",
+                "index": 12
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392830",
+                "con_name": "俄羅斯",
+                "index": 13
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392730",
+                "con_name": "希臘",
+                "index": 14
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392822",
+                "con_name": "葡萄牙",
+                "index": 15
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392836",
+                "con_name": "斯洛伐克",
+                "index": 16
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392820",
+                "con_name": "波蘭",
+                "index": 17
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392715",
+                "con_name": "愛沙尼亞",
+                "index": 18
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392709",
+                "con_name": "丹麥",
+                "index": 19
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392850",
+                "con_name": "瑞典",
+                "index": 20
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392780",
+                "con_name": "盧森堡",
+                "index": 21
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392746",
+                "con_name": "愛爾蘭",
+                "index": 22
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392738",
+                "con_name": "匈牙利",
+                "index": 23
+            },
+            {
+                "con_code": "40",
+                "con_id": "1225353574045",
+                "con_name": "摩納哥",
+                "index": 24
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392717",
+                "con_name": "芬蘭",
+                "index": 25
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392740",
+                "con_name": "冰島",
+                "index": 26
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392728",
+                "con_name": "直布羅陀",
+                "index": 27
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392663",
+                "con_name": "阿爾巴尼亞",
+                "index": 28
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392788",
+                "con_name": "馬爾他",
+                "index": 29
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392828",
+                "con_name": "羅馬尼亞",
+                "index": 30
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392689",
+                "con_name": "保加利亞",
+                "index": 31
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392778",
+                "con_name": "立陶宛",
+                "index": 32
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392772",
+                "con_name": "拉脫維亞",
+                "index": 33
+            },
+            {
+                "con_code": "40",
+                "con_id": "1199070481302",
+                "con_name": "白俄羅斯",
+                "index": 34
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392870",
+                "con_name": "烏克蘭",
+                "index": 35
+            },
+            {
+                "con_code": "40",
+                "con_id": "1170237392776",
+                "con_name": "列支敦士登",
+                "index": 36
+            },
+            {
+                "con_code": "40",
+                "con_id": "20210331016",
+                "con_name": "柯索沃",
+                "index": 37
+            },
+            {
+                "con_code": "40",
+                "con_id": "20210331005",
+                "con_name": "納哥諾卡拉巴克共和國",
+                "index": 38
+            },
+            {
+                "con_code": "40",
+                "con_id": "20210330016",
+                "con_name": "斯洛維尼亞",
+                "index": 39
+            },
+            {
+                "con_code": "40",
+                "con_id": "20210330015",
+                "con_name": "摩爾多瓦",
+                "index": 40
+            },
+            {
+                "con_code": "40",
+                "con_id": "20210330014",
+                "con_name": "賽普勒斯",
+                "index": 41
+            },
+            {
+                "con_code": "40",
+                "con_id": "20210330013",
+                "con_name": "波士尼亞 & 赫塞哥維納",
+                "index": 42
+            },
+            {
+                "con_code": "40",
+                "con_id": "20210329052",
+                "con_name": "塞爾維亞",
+                "index": 43
+            },
+            {
+                "con_code": "40",
+                "con_id": "20210329050",
+                "con_name": "蒙特內哥羅",
+                "index": 44
+            },
+            {
+                "con_code": "40",
+                "con_id": "20210329049",
+                "con_name": "馬其頓",
+                "index": 45
+            },
+            {
+                "con_code": "40",
+                "con_id": "20210329047",
+                "con_name": "英屬根西島",
+                "index": 46
+            },
+            {
+                "con_code": "40",
+                "con_id": "11701231241412",
+                "con_name": "挪威航空",
+                "index": 47
+            },
+            {
+                "con_code": "40",
+                "con_id": "20210408162314278",
+                "con_name": "澤西島",
+                "index": 48
+            }
+        ],
+        "ret_code": "0"
+    }
+} (api_utlis.py:25)
+16:05:28 [    INFO] [Json 內容比對失敗], expected: {'con_name': '法國', 'con_id': '1170237392719', 'index': 1, 'con_code': '40'}, actual: {'con_name': '澳洲', 'con_id': '1170237392667', 'index': 1, 'con_code': '50'} (object_utils.py:7)
+16:05:28 [   ERROR] An error occurred: [Json 內容比對失敗], expected: {'con_name': '法國', 'con_id': '1170237392719', 'index': 1, 'con_code': '40'}, but actual: {'con_name': '澳洲', 'con_id': '1170237392667', 'index': 1, 'con_code': '50'} (test_api_QueryCountries.py:46)
+Traceback (most recent call last):
+  File "C:\CS_app_autotest_tina(1)\test_api\test_api_QueryCountries.py", line 42, in test_api_queryCountriesAPIs_success
+    ObjectUtils.equal_str("Json 內容比對失敗", r_item, e_item)
+  File "C:\CS_app_autotest_tina(1)\utils\object_utils.py", line 8, in equal_str
+    assert str(exp_value) == str(act_value), f"[{key}], expected: {exp_value}, but actual: {act_value}"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: [Json 內容比對失敗], expected: {'con_name': '法國', 'con_id': '1170237392719', 'index': 1, 'con_code': '40'}, but actual: {'con_name': '澳洲', 'con_id': '1170237392667', 'index': 1, 'con_code': '50'}
+16:05:28 [    INFO] END (test_api_QueryCountries.py:50)
+16:05:28 [    INFO] Request method: get (api_utlis.py:11)
+16:05:28 [    INFO] Request URL: http://csappstage.catch.net.tw/cs/API/queryFeeChangeLog (api_utlis.py:12)
+16:05:28 [    INFO] Request Cookies: <RequestsCookieJar[]> (api_utlis.py:13)
+16:05:28 [    INFO] Request headers: {'User-Agent': 'python-requests/2.32.3', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'} (api_utlis.py:14)
+16:05:28 [    INFO] Request Json body: null (api_utlis.py:17)
+16:05:28 [    INFO] Response headers: {'X-Frame-Options': 'SAMEORIGIN', 'X-XSS-Protection': '1; mode=block', 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'X-Content-Type-Options': 'nosniff', 'Content-Type': 'text/html;charset=UTF-8', 'Date': 'Mon, 28 Oct 2024 08:05:28 GMT', 'Server': '', 'Content-Length': '63', 'Age': '0', 'Connection': 'keep-alive', 'Via': '1.1 TWM-WCG-SVR6'} (api_utlis.py:20)
+16:05:28 [    INFO] Response code: 200 (api_utlis.py:21)
+16:05:28 [    INFO] Response: {
+    "cs_app": {
+        "ret_code": "0",
+        "subscrid": "14796488",
+        "uid": "82800"
+    }
+} (api_utlis.py:25)
+16:05:28 [    INFO] [Json 內容比對失敗], expected: {'cs_app': {'uid': '82800', 'subscrid': '14796488', 'ret_code': '0'}}, actual: {'cs_app': {'uid': '82800', 'subscrid': '14796488', 'ret_code': '0'}} (object_utils.py:7)
+16:05:28 [    INFO] END (test_api_QueryFeeChangeLog.py:46)
+16:05:28 [    INFO] Request method: get (api_utlis.py:11)
+16:05:28 [    INFO] Request URL: http://csappstage.catch.net.tw/cs/API/queryFeeChangeLog (api_utlis.py:12)
+16:05:28 [    INFO] Request Cookies: <RequestsCookieJar[]> (api_utlis.py:13)
+16:05:28 [    INFO] Request headers: {'User-Agent': 'python-requests/2.32.3', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'} (api_utlis.py:14)
+16:05:28 [    INFO] Request Json body: null (api_utlis.py:17)
+16:05:28 [    INFO] Response headers: {'X-Frame-Options': 'SAMEORIGIN', 'X-XSS-Protection': '1; mode=block', 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'X-Content-Type-Options': 'nosniff', 'Content-Type': 'text/html;charset=UTF-8', 'Date': 'Mon, 28 Oct 2024 08:05:28 GMT', 'Server': '', 'Content-Length': '63', 'Age': '0', 'Connection': 'keep-alive', 'Via': '1.1 TWM-WCG-SVR6'} (api_utlis.py:20)
+16:05:28 [    INFO] Response code: 200 (api_utlis.py:21)
+16:05:28 [    INFO] Response: {
+    "cs_app": {
+        "ret_code": "0",
+        "subscrid": "14796488",
+        "uid": "82800"
+    }
+} (api_utlis.py:25)
+16:05:28 [    INFO] [Json 內容比對失敗], expected: {'cs_app': {'uid': '82800', 'subscrid': '14796488', 'ret_code': '0'}}, actual: {'cs_app': {'uid': '82800', 'subscrid': '14796488', 'ret_code': '0'}} (object_utils.py:7)
+16:05:28 [    INFO] END (test_api_QueryFeeChangeLog.py:46)
+16:05:28 [    INFO] Request method: get (api_utlis.py:11)
+16:05:28 [    INFO] Request URL: http://csappstage.catch.net.tw/cs/API/queryFeeChangeLog (api_utlis.py:12)
+16:05:28 [    INFO] Request Cookies: <RequestsCookieJar[]> (api_utlis.py:13)
+16:05:28 [    INFO] Request headers: {'User-Agent': 'python-requests/2.32.3', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'} (api_utlis.py:14)
+16:05:28 [    INFO] Request Json body: null (api_utlis.py:17)
+16:05:28 [    INFO] Response headers: {'X-Frame-Options': 'SAMEORIGIN', 'X-XSS-Protection': '1; mode=block', 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'X-Content-Type-Options': 'nosniff', 'Content-Type': 'text/html;charset=UTF-8', 'Date': 'Mon, 28 Oct 2024 08:05:28 GMT', 'Server': '', 'Content-Length': '63', 'Age': '0', 'Connection': 'keep-alive', 'Via': '1.1 TWM-WCG-SVR6'} (api_utlis.py:20)
+16:05:28 [    INFO] Response code: 200 (api_utlis.py:21)
+16:05:28 [    INFO] Response: {
+    "cs_app": {
+        "ret_code": "0",
+        "subscrid": "14796488",
+        "uid": "82800"
+    }
+} (api_utlis.py:25)
+16:05:28 [    INFO] [Json 內容比對失敗], expected: {'cs_app': {'uid': '82800', 'subscrid': '14796488', 'ret_code': '0'}}, actual: {'cs_app': {'uid': '82800', 'subscrid': '14796488', 'ret_code': '0'}} (object_utils.py:7)
+16:05:28 [    INFO] END (test_api_QueryFeeChangeLog.py:46)
+16:05:28 [    INFO] Request method: get (api_utlis.py:11)
+16:05:28 [    INFO] Request URL: http://csappstage.catch.net.tw/cs/API/queryFeeChangeLog (api_utlis.py:12)
+16:05:28 [    INFO] Request Cookies: <RequestsCookieJar[]> (api_utlis.py:13)
+16:05:28 [    INFO] Request headers: {'User-Agent': 'python-requests/2.32.3', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'} (api_utlis.py:14)
+16:05:28 [    INFO] Request Json body: null (api_utlis.py:17)
+16:05:29 [    INFO] Response headers: {'X-Frame-Options': 'SAMEORIGIN', 'X-XSS-Protection': '1; mode=block', 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'X-Content-Type-Options': 'nosniff', 'Content-Type': 'text/html;charset=UTF-8', 'Date': 'Mon, 28 Oct 2024 08:05:28 GMT', 'Server': '', 'Content-Length': '63', 'Age': '1', 'Connection': 'keep-alive', 'Via': '1.1 TWM-WCG-SVR6'} (api_utlis.py:20)
+16:05:29 [    INFO] Response code: 200 (api_utlis.py:21)
+16:05:29 [    INFO] Response: {
+    "cs_app": {
+        "ret_code": "0",
+        "subscrid": "14796488",
+        "uid": "82800"
+    }
+} (api_utlis.py:25)
+16:05:29 [    INFO] [Json 內容比對失敗], expected: {'cs_app': {'uid': '8280012', 'subscrid': '14796488', 'ret_code': '0'}}, actual: {'cs_app': {'uid': '82800', 'subscrid': '14796488', 'ret_code': '0'}} (object_utils.py:7)
+16:05:29 [   ERROR] An error occurred: [Json 內容比對失敗], expected: {'cs_app': {'uid': '8280012', 'subscrid': '14796488', 'ret_code': '0'}}, but actual: {'cs_app': {'uid': '82800', 'subscrid': '14796488', 'ret_code': '0'}} (test_api_QueryFeeChangeLog.py:42)
+Traceback (most recent call last):
+  File "C:\CS_app_autotest_tina(1)\test_api\test_api_QueryFeeChangeLog.py", line 38, in test_api_queryFeeChangeLogAPIs_success
+    ObjectUtils.equal_str("Json 內容比對失敗", excel_data, response_data)
+  File "C:\CS_app_autotest_tina(1)\utils\object_utils.py", line 8, in equal_str
+    assert str(exp_value) == str(act_value), f"[{key}], expected: {exp_value}, but actual: {act_value}"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: [Json 內容比對失敗], expected: {'cs_app': {'uid': '8280012', 'subscrid': '14796488', 'ret_code': '0'}}, but actual: {'cs_app': {'uid': '82800', 'subscrid': '14796488', 'ret_code': '0'}}
+16:05:29 [    INFO] END (test_api_QueryFeeChangeLog.py:46)
+16:05:29 [    INFO] Request method: get (api_utlis.py:11)
+16:05:29 [    INFO] Request URL: http://csappstage.catch.net.tw/cs/API/queryFeeChangeLog (api_utlis.py:12)
+16:05:29 [    INFO] Request Cookies: <RequestsCookieJar[]> (api_utlis.py:13)
+16:05:29 [    INFO] Request headers: {'User-Agent': 'python-requests/2.32.3', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'} (api_utlis.py:14)
+16:05:29 [    INFO] Request Json body: null (api_utlis.py:17)
+16:05:29 [    INFO] Response headers: {'X-Frame-Options': 'SAMEORIGIN', 'X-XSS-Protection': '1; mode=block', 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'X-Content-Type-Options': 'nosniff', 'Content-Type': 'text/html;charset=UTF-8', 'Date': 'Mon, 28 Oct 2024 08:05:28 GMT', 'Server': '', 'Content-Length': '63', 'Age': '1', 'Connection': 'keep-alive', 'Via': '1.1 TWM-WCG-SVR6'} (api_utlis.py:20)
+16:05:29 [    INFO] Response code: 200 (api_utlis.py:21)
+16:05:29 [    INFO] Response: {
+    "cs_app": {
+        "ret_code": "0",
+        "subscrid": "14796488",
+        "uid": "82800"
+    }
+} (api_utlis.py:25)
+16:05:29 [    INFO] [Json 內容比對失敗], expected: {'cs_app': {'uid': '45687900', 'subscrid': '14796488', 'ret_code': '0'}}, actual: {'cs_app': {'uid': '82800', 'subscrid': '14796488', 'ret_code': '0'}} (object_utils.py:7)
+16:05:29 [   ERROR] An error occurred: [Json 內容比對失敗], expected: {'cs_app': {'uid': '45687900', 'subscrid': '14796488', 'ret_code': '0'}}, but actual: {'cs_app': {'uid': '82800', 'subscrid': '14796488', 'ret_code': '0'}} (test_api_QueryFeeChangeLog.py:42)
+Traceback (most recent call last):
+  File "C:\CS_app_autotest_tina(1)\test_api\test_api_QueryFeeChangeLog.py", line 38, in test_api_queryFeeChangeLogAPIs_success
+    ObjectUtils.equal_str("Json 內容比對失敗", excel_data, response_data)
+  File "C:\CS_app_autotest_tina(1)\utils\object_utils.py", line 8, in equal_str
+    assert str(exp_value) == str(act_value), f"[{key}], expected: {exp_value}, but actual: {act_value}"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: [Json 內容比對失敗], expected: {'cs_app': {'uid': '45687900', 'subscrid': '14796488', 'ret_code': '0'}}, but actual: {'cs_app': {'uid': '82800', 'subscrid': '14796488', 'ret_code': '0'}}
+16:05:29 [    INFO] END (test_api_QueryFeeChangeLog.py:46)
+16:05:29 [    INFO] Request method: get (api_utlis.py:11)
+16:05:29 [    INFO] Request URL: http://csappstage.catch.net.tw/cs/API/queryFeeChangeLog (api_utlis.py:12)
+16:05:29 [    INFO] Request Cookies: <RequestsCookieJar[]> (api_utlis.py:13)
+16:05:29 [    INFO] Request headers: {'User-Agent': 'python-requests/2.32.3', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'} (api_utlis.py:14)
+16:05:29 [    INFO] Request Json body: null (api_utlis.py:17)
+16:05:29 [    INFO] Response headers: {'X-Frame-Options': 'SAMEORIGIN', 'X-XSS-Protection': '1; mode=block', 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache', 'X-Content-Type-Options': 'nosniff', 'Content-Type': 'text/html;charset=UTF-8', 'Date': 'Mon, 28 Oct 2024 08:05:29 GMT', 'Server': '', 'Content-Length': '63', 'Age': '0', 'Connection': 'keep-alive', 'Via': '1.1 TWM-WCG-SVR6'} (api_utlis.py:20)
+16:05:29 [    INFO] Response code: 200 (api_utlis.py:21)
+16:05:29 [    INFO] Response: {
+    "cs_app": {
+        "ret_code": "0",
+        "subscrid": "14796488",
+        "uid": "82800"
+    }
+} (api_utlis.py:25)
+16:05:29 [    INFO] [Json 內容比對失敗], expected: {'cs_app': {'uid': '82800', 'subscrid': '123596488', 'ret_code': '0'}}, actual: {'cs_app': {'uid': '82800', 'subscrid': '14796488', 'ret_code': '0'}} (object_utils.py:7)
+16:05:29 [   ERROR] An error occurred: [Json 內容比對失敗], expected: {'cs_app': {'uid': '82800', 'subscrid': '123596488', 'ret_code': '0'}}, but actual: {'cs_app': {'uid': '82800', 'subscrid': '14796488', 'ret_code': '0'}} (test_api_QueryFeeChangeLog.py:42)
+Traceback (most recent call last):
+  File "C:\CS_app_autotest_tina(1)\test_api\test_api_QueryFeeChangeLog.py", line 38, in test_api_queryFeeChangeLogAPIs_success
+    ObjectUtils.equal_str("Json 內容比對失敗", excel_data, response_data)
+  File "C:\CS_app_autotest_tina(1)\utils\object_utils.py", line 8, in equal_str
+    assert str(exp_value) == str(act_value), f"[{key}], expected: {exp_value}, but actual: {act_value}"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: [Json 內容比對失敗], expected: {'cs_app': {'uid': '82800', 'subscrid': '123596488', 'ret_code': '0'}}, but actual: {'cs_app': {'uid': '82800', 'subscrid': '14796488', 'ret_code': '0'}}
+16:05:29 [    INFO] END (test_api_QueryFeeChangeLog.py:46)
